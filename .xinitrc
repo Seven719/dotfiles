@@ -1,19 +1,25 @@
-export ZSH="$HOME/.oh-my-zsh"
-export PATH="$PATH:/home/iulian/.local/bin"
-export TERMINAL=/usr/local/bin/st
+#! /bin/sh
 
-ZSH_THEME="bureau"
+# Restore Wallpaper
+nitrogen --restore &
 
-plugins=(
-	git
-	zsh-autosuggestions
-	zsh-syntax-highlighting
-)
+# DATE and RAM in Status Bar
+dte(){
+    dte="$(date +'%A, %B %d - %H:%M')"
+    echo -e "$dte"
+}
 
-source $ZSH/oh-my-zsh.sh
+mem(){
+    mem=`free | awk '/Mem/ {printf "%d MiB/%d MiB\n", $3 / 1024.0, $2 / 1024.0 }'`
+    echo -e "$mem"
+}
 
-alias music="ncmpcpp"
-alias download="yt-dlp --extract-audio --add-metadata --no-playlist"
-alias nvmopen="source ~/.nvm/nvm.sh"
+while true;do
+    xsetroot -name "$(mem) | $(dte)"
+    sleep 10s 
+done &
 
-[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
+# Flameshot
+flameshot gui &
+# DWM
+exec dwm
