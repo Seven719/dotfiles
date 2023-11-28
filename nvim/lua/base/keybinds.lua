@@ -1,0 +1,27 @@
+local bind = function(mode, lhs, rhs)
+    vim.api.nvim_set_keymap(mode, lhs, rhs, { noremap = true, silent = true })
+end
+
+-- NERDTreeToggle Keybind
+bind('n', '<Leader>f', ':NvimTreeToggle<CR>')
+
+-- Shift + K/J
+bind('n', 'K', ':m .-2<CR>==')
+bind('n', 'J', ':m .+1<CR>==')
+
+-- Force Save File
+bind('n', 'zz', ':w!<CR>')
+-- Force Quit File
+bind('n', '<C-q>', '<Esc>:q!<CR>')
+-- Deselect Searched Items
+bind('n', '<C-C>', ':set hlsearch!<CR>')
+-- Indentation
+bind('x', '<Tab>', [[>gv]])
+bind('x', '<S-Tab>', [[<gv]])
+-- Select All
+bind('n', '<C-a>', 'ggVG')
+
+-- Tabs in neovim
+bind('n', '<Leader>e', ':BufferNext<CR>')
+bind('n', '<Leader>q', ':BufferPrevious<CR>')
+bind('n', '<Leader>w', ':BufferClose<CR>')
