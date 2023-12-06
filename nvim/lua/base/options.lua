@@ -1,25 +1,31 @@
+local g = vim.g
+local o = vim.o
+local op = vim.opt
 -- Window Tabs
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+g.loaded_netrw = 1
+g.loaded_netrwPlugin = 1
 
 -- Tabbing
-vim.opt.smartindent = true
-vim.opt.autoindent = true
-vim.o.shiftwidth = 4
-vim.o.expandtab = true
+o.cindent = true
+o.shiftwidth = 4
+o.expandtab = true
 
 -- Colors
-vim.o.t_Co = 256
-vim.opt.termguicolors = true
-vim.opt.background = "dark"
+o.t_Co = 256
+op.termguicolors = true
+op.background = "dark"
 
 -- Side Bar
-vim.o.relativenumber = true
-vim.o.number = true
+o.relativenumber = true
+o.number = true
+o.signcolumn = 'no'
+o.cursorline = true
 
+-- Number of screen lines to keep above and below the cursor
+o.scrolloff = 8
 -- Mouse
-vim.opt.mouse = ""
+op.mouse = ""
 -- ClipBoard
-vim.opt.clipboard = "unnamedplus"
+op.clipboard = "unnamedplus"
 -- SQL Change
-vim.g.lazy_sql_default_compl_type = 'syntax'
+g.lazy_sql_default_compl_type = 'syntax'

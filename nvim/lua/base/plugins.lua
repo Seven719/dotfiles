@@ -1,4 +1,7 @@
 require('lazy').setup({
+    -- Indent Line
+    { 'lukas-reineke/indent-blankline.nvim', main = 'ibl',
+    config = function() require('ibl').setup() end},
     -- Colorized brackets
     'HiPhish/rainbow-delimiters.nvim',
     -- Colors for css
@@ -22,7 +25,7 @@ require('lazy').setup({
     { 'kylechui/nvim-surround', version = '*', event = 'VeryLazy', 
     config = function() require('nvim-surround').setup() end },
     -- Auto Pairing
-    {'windwp/nvim-autopairs', event = 'InsertEnter'},
+    { 'windwp/nvim-autopairs', event = 'InsertEnter' },
     -- Auto Completion
     'neovim/nvim-lspconfig',
     'hrsh7th/cmp-nvim-lsp',

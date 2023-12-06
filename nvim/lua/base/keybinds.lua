@@ -8,6 +8,8 @@ bind('n', '<Leader>f', ':NvimTreeToggle<CR>')
 -- Shift + K/J
 bind('n', 'K', ':m .-2<CR>==')
 bind('n', 'J', ':m .+1<CR>==')
+bind('x', 'K', ":move '<-2<CR>gv=gv")
+bind('x', 'J', ":move '>+1<CR>gv=gv")
 
 -- Force Save File
 bind('n', 'zz', ':w!<CR>')

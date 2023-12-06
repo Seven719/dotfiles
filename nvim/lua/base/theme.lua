@@ -1,4 +1,4 @@
-local current_theme = 'horizon'
+local current_theme = 'sonokai'
 
 -- Theme Preferences
     -- EverForest
