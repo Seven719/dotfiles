@@ -20,6 +20,6 @@ while true;do
 done &
 
 # Flameshot
-flameshot gui &
+flameshot &
 # DWM
 exec dwm

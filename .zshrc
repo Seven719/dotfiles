@@ -13,7 +13,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 alias music="ncmpcpp"
-alias download="yt-dlp --extract-audio --add-metadata --no-playlist"
+alias download-audio="yt-dlp --extract-audio --add-metadata --no-playlist"
+alias download-video="yt-dlp -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]'"
 alias nvmopen="source ~/.nvm/nvm.sh"
 
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
