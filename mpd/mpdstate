@@ -1,9 +1,9 @@
-sw_volume: 64
+sw_volume: 47
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: play
 current: 1
-time: 223.806000
+time: 7880.845000
 random: 0
 repeat: 0
 single: 0
@@ -12,10 +12,9 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Classical/Beethoven ＂Moonlight＂ Sonata,  III ＂Presto Agitato＂ Valentina Lisitsa [zucBfXpCA6s].opus
-1:Classical/Introduction and Rondo Capriccioso Op.28, Saint-Saëns - Ray Chen & Malta Philharmonic Orchestra [8UTq1eZrDkI].opus
-2:Classical/Zelda： Great Fairy Fountain (Piano Etude) [nhIriLZUXX0].opus
-3:Classical/Violin Sonata No. 9 in A Major, Op. 47, ＂Kreutzer＂： I. Adagio sostenuto - Presto [zHNDE7f-lmA].opus
-4:Classical/Brahms： 21 Hungarian Dances, WoO 1 - Hungarian Dance No. 5 in G Minor. Allegro (Orch. Schmeling) [PyCHVikkt-E].opus
-5:Classical/The Four Seasons - Winter in F Minor, RV. 297： I. Allegro non molto [V8bR_YRvlLk].opus
+0:Noise/10 Hours Of Wii Theme Music (Mii Song) [Twi92KYddW4].opus
+1:Noise/Electric Heater Fan Sound + Black Screen for Sleeping = Heater White Noise [ph9GgHJMqXg].opus
+2:Noise/Hiding from a Heavy Rain and Thunderstorm in Cave Fireplace Sounds for 12 hours,Sleep, Study, Relax [lWLUJHtlYyM].opus
+3:Noise/Kokiri Forest 10 Hours - Zelda Ocarina of Time [qcBLl4z5Sig].opus
+4:Noise/Snowstorm, Blizzard & Howling Winds ｜ 10 Hours Relaxing Sounds for Sleep, Insomnia, Wooden Cabin 4K [CQSfI_tXZLY].opus
 playlist_end
