@@ -4,8 +4,6 @@ require('lazy').setup({
     config = function() require('ibl').setup() end},
     -- Colorized brackets
     'HiPhish/rainbow-delimiters.nvim',
-    -- Colors for css
-    'brenoprata10/nvim-highlight-colors',
     -- TreeSitter
     'nvim-treesitter/nvim-treesitter',	
     -- Comment Shortcut
