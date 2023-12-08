@@ -1,5 +1,4 @@
-*
-!/.gitignore
+/*
 !/nvim/
 !/ncmpcpp/
 !/mpd/
@@ -9,5 +8,3 @@
 !/screenshot2.png/
 !/wallpapers/
 !/README.md/
-
-./nvim/lazy-lock.json
