@@ -1,0 +1,13 @@
+*
+!/.gitignore
+!/nvim/
+!/ncmpcpp/
+!/mpd/
+!/dwm/
+!/st/
+!/screenshot1.png/
+!/screenshot2.png/
+!/wallpapers/
+!/README.md/
+
+./nvim/lazy-lock.json
