@@ -1,14 +1,9 @@
 [[ $- != *i* ]] && return
 # bash prompt
-PS1='$(printf "%*s\r%s" $(( COLUMNS-1 )) "$(git_branch_prompt)" "\[\e[1m\]\u\[\e[0m\]@\h \[\e[1m\]\w\n\[\e[0m\]> \[\e[38;5;22;1m\]\\$ \[\e[0m\]")'
-
-git_branch_prompt() {
-    local branch
-    branch=$(git branch 2>/dev/null | grep '^*' | sed s/..//)
-    if [ -n "$branch" ]; then
-        echo "[$branch] "
-    fi
-}
+source /usr/share/git/completion/git-prompt.sh
+GIT_BRANCH='$(__git_ps1 " [%s]")'
+export GIT_PS1_SHOWDIRTYSTATE=1
+PS1="\[\e[1m\]\u\[\e[0m\]|\w\[\e[31;1m\]${GIT_BRANCH} \[\e[0;38;5;178m\]\\$ \[\e[0m\]"
 
 if [ -f /usr/share/bash-completion/bash_completion ]; then
     . /usr/share/bash-completion/bash_completion
