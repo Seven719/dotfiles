@@ -1,4 +1,4 @@
-local current_theme = 'sonokai'
+local current_theme = 'kanagawa-dragon'
 
 -- Theme Preferences
     -- EverForest
