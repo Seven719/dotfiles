@@ -16,7 +16,7 @@ mem(){
 
 while true;do
     xsetroot -name "$(mem) | $(dte)"
-    sleep 10s 
+    sleep 10s
 done &
 
 # Flameshot
