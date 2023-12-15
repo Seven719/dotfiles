@@ -5,10 +5,6 @@ GIT_BRANCH='$(__git_ps1 " [%s]")'
 export GIT_PS1_SHOWDIRTYSTATE=1
 PS1="\[\e[1m\]\u\[\e[0m\]|\w\[\e[31;1m\]${GIT_BRANCH} \[\e[0;38;5;178m\]\\$ \[\e[0m\]"
 
-if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-fi
-
 # spell check
 shopt -s cdspell
 # scroll through past commands
