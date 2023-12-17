@@ -16,6 +16,9 @@ bind 'set completion-ignore-case on'
 bind 'TAB:menu-complete'
 bind '"\e[Z":menu-complete-backward'
 bind 'set show-all-if-ambiguous on'
+# Rebind Ctrl + W to delete only last word
+stty werase undef
+bind '\C-w:unix-filename-rubout'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
