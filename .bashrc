@@ -5,8 +5,13 @@ GIT_BRANCH='$(__git_ps1 " [%s]")'
 export GIT_PS1_SHOWDIRTYSTATE=1
 PS1="\[\e[1m\]\u\[\e[0m\]|\w\[\e[31;1m\]${GIT_BRANCH} \[\e[0;38;5;178m\]\\$ \[\e[0m\]"
 
+HISTSIZE=-1
+HISTFILESIZE=-1
+
 # spell check
 shopt -s cdspell
+# Save all lines in the history file immediately
+shopt -s histappend
 # scroll through past commands
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
