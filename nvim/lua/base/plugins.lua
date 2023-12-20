@@ -42,4 +42,5 @@ require('lazy').setup({
     'sainnhe/everforest',
     'akinsho/horizon.nvim',
     'sainnhe/sonokai',
+    'rose-pine/neovim',
 })

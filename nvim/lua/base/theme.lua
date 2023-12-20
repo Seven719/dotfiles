@@ -1,4 +1,4 @@
-local current_theme = 'kanagawa-dragon'
+local current_theme = 'rose-pine'
 
 -- Theme Preferences
     -- EverForest
