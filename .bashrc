@@ -1,4 +1,7 @@
 [[ $- != *i* ]] && return
+
+# PATHS
+export PATH="$PATH:$HOME/.cargo/bin"
 # bash prompt
 source /usr/share/git/completion/git-prompt.sh
 GIT_BRANCH='$(__git_ps1 " [%s]")'
@@ -8,16 +11,16 @@ PS1="\[\e[1m\]\u\[\e[0m\]|\w\[\e[31;1m\]${GIT_BRANCH} \[\e[0;38;5;178m\]\\$ \[\e
 HISTSIZE=-1
 HISTFILESIZE=-1
 
-# spell check
+# Spell Check
 shopt -s cdspell
 # Save all lines in the history file immediately
 shopt -s histappend
-# scroll through past commands
+# Scroll through past commands
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
-# case unsensitive
+# Case unsensitive
 bind 'set completion-ignore-case on'
-# autocomplete more like zsh
+# Autocomplete more like zsh
 bind 'TAB:menu-complete'
 bind '"\e[Z":menu-complete-backward'
 bind 'set show-all-if-ambiguous on'
