@@ -1,20 +1,75 @@
-sw_volume: 47
+sw_volume: 36
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 0
-time: 25854.527000
+current: 19
+time: 145.283000
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Noise/Electric Heater Fan Sound + Black Screen for Sleeping = Heater White Noise [ph9GgHJMqXg].opus
-1:Noise/Hiding from a Heavy Rain and Thunderstorm in Cave Fireplace Sounds for 12 hours,Sleep, Study, Relax [lWLUJHtlYyM].opus
-2:Noise/Snowstorm, Blizzard & Howling Winds ｜ 10 Hours Relaxing Sounds for Sleep, Insomnia, Wooden Cabin 4K [CQSfI_tXZLY].opus
-3:Noise/10 Hours Of Wii Theme Music (Mii Song) [Twi92KYddW4].opus
-4:Noise/Kokiri Forest 10 Hours - Zelda Ocarina of Time [qcBLl4z5Sig].opus
+0:ChillTime/Jingle Bell Rock [Z0ajuTaHBtM].opus
+1:ChillTime/90sFlav - Call me [VLtSCBSaCIQ].opus
+2:ChillTime/burbank - sorry i like you [GgVcgbtHY9k].opus
+3:ChillTime/Chill Bump - Four (Official Audio) [60lBb2oqpMY].opus
+4:ChillTime/Chill Bump - Save the Day (Official Audio) [AKidOTIU_x8].opus
+5:ChillTime/halberd - i drove her home, and now we're dating [vg4t2XI4bmM].opus
+6:ChillTime/Hi-Rez - White Tiger [Yvc6uOKiWQk].opus
+7:ChillTime/hisohkah - school rooftop [Og6Yu54arDE].opus
+8:ChillTime/ibrahim - a world at peace [kPc0dZ8aysA].opus
+9:ChillTime/Inaction is a Slow Death - Original Score [SleeNttNzww].opus
+10:ChillTime/Iron Maiden - Transylvania [nrKQa5PfUbw].opus
+11:ChillTime/J.Rob The Chief - Goat Talk (Sugar Sean) [Official Music Video] . [pO-bst7rtPs].opus
+12:ChillTime/j^p^n - amend [nSEkh4mgYqc].opus
+13:ChillTime/j^p^n - Begun [JdYyxGGneDU].opus
+14:ChillTime/j^p^n - getover [KSpjdauaJfQ].opus
+15:ChillTime/j^p^n - Herse [0yAjCohG1LE].opus
+16:ChillTime/j^p^n - loveyou. [] [9YzXVEVbJME].opus
+17:ChillTime/K.A.A.N. - The Good Book [XskMYmLMkdc].opus
+18:ChillTime/Kabes - Pressure [XGHNuZiUtvo].opus
+19:ChillTime/Kabes – Explore [ifVT6pEobTA].opus
+20:ChillTime/Led Zeppelin - All My Love (Instrumental) [R0mJsVruyus].opus
+21:ChillTime/Led Zeppelin - Moby Dick (Official Audio) [2N_xP67utPk].opus
+22:ChillTime/Lynyrd Skynyrd - Free Bird (Official Audio) [0LwcvjNJTuM].opus
+23:ChillTime/Mastodon - Black Tongue [XkPzOJbAN0A][rebalanced].mp3
+24:ChillTime/Mazde ft. Khary - Neverland [CYnC9VhcAJA].opus
+25:ChillTime/neeks - 1_26 AM [_1UuWeLIX9Q].opus
+26:ChillTime/øneheart - outside [DluKocv_BOA].opus
+27:ChillTime/øneheart x reidenshi - snowfall [LlN8MPS7KQs].opus
+28:ChillTime/PETIT BISCUIT - Sunset Lover [wuCK-oiE3rM].opus
+29:ChillTime/PlayaPhonk - Keraunos [KuSLrOCR4EE].opus
+30:ChillTime/Prithvi x Kanisan - Embers [o7yViYUT4-U].opus
+31:ChillTime/Ramson Badbonez & DJ Fingerfood - Hypnodic (OFFICIAL VIDEO) [axBYx4pUv9g].opus
+32:ChillTime/Slee!   Needle Dropper Freestyle Instrumental! [BWZd5Slrhww].opus
+33:ChillTime/Sub Morphine - DataMine [E_JllyHYuf4].opus
+34:ChillTime/憂鬱 - Sun [oxoqm05c7yA].opus
+35:ChillTime/Snowman [3lUtzMrRV04].opus
+36:ChillTime/8-bit Sheriff [c35atEBBxgU].opus
+37:ChillTime/Mr. Scary [fOmggRPbTc4].opus
+38:ChillTime/Moon Theme [gtAlB65LTDM].opus
+39:ChillTime/.__ [cL9pbOB7N6s].opus
+40:ChillTime/Bricks [lqZD3OdLUpY].opus
+41:ChillTime/Divine [mAk2SYQerRw].opus
+42:ChillTime/Frankenstein [b-V5Qh5WD3U].opus
+43:ChillTime/Prideful [r9TNMZ93jrU].opus
+44:ChillTime/Nameless [W6wNyE8amdQ].opus
+45:ChillTime/STRANGER [jNd_LxLnIkM].opus
+46:ChillTime/Bloom [OFP3lEHOpA8].opus
+47:ChillTime/Nosferatu [BGNgkNX0cMQ].opus
+48:ChillTime/Stella [iVAIFMF-szg].opus
+49:ChillTime/Star Shopping (Slowed) [neu1pwGP38U].opus
+50:ChillTime/Jingle Bell Rock [Z0ajuTaHBtM].opus
+51:ChillTime/The Ultra-Violence [oaSeY_IzKjs].opus
+52:ChillTime/Ultra Orange [mV0MDbuRC3s].opus
+53:ChillTime/Humbot [wEW5UWGO0n8].opus
+54:ChillTime/5_32pm [UB6j7YjdLk8].opus
+55:Noise/Electric Heater Fan Sound + Black Screen for Sleeping = Heater White Noise [ph9GgHJMqXg].opus
+56:Noise/Hiding from a Heavy Rain and Thunderstorm in Cave Fireplace Sounds for 12 hours,Sleep, Study, Relax [lWLUJHtlYyM].opus
+57:Noise/Snowstorm, Blizzard & Howling Winds ｜ 10 Hours Relaxing Sounds for Sleep, Insomnia, Wooden Cabin 4K [CQSfI_tXZLY].opus
+58:Noise/10 Hours Of Wii Theme Music (Mii Song) [Twi92KYddW4].opus
+59:Noise/Kokiri Forest 10 Hours - Zelda Ocarina of Time [qcBLl4z5Sig].opus
 playlist_end
