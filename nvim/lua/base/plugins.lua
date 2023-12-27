@@ -1,9 +1,4 @@
 require('lazy').setup({
-    -- Indent Line
-    { 'lukas-reineke/indent-blankline.nvim', main = 'ibl',
-    config = function() require('ibl').setup() end},
-    -- Colorized brackets
-    'HiPhish/rainbow-delimiters.nvim',
     -- TreeSitter
     'nvim-treesitter/nvim-treesitter',	
     -- Comment Shortcut
@@ -12,16 +7,10 @@ require('lazy').setup({
     'nvim-lualine/lualine.nvim',
     -- Icons
     'nvim-tree/nvim-web-devicons',
-    -- Tabs in Neovim
-    'romgrk/barbar.nvim',
     -- File Manager
     'nvim-tree/nvim-tree.lua',
-    -- Snippets
+    -- -- Snippets
     'L3MON4D3/LuaSnip',
-    'rafamadriz/friendly-snippets',
-    -- Surround words with brackets/quotes 
-    { 'kylechui/nvim-surround', version = '*', event = 'VeryLazy', 
-    config = function() require('nvim-surround').setup() end },
     -- Auto Pairing
     { 'windwp/nvim-autopairs', event = 'InsertEnter' },
     -- Auto Completion
@@ -32,15 +21,13 @@ require('lazy').setup({
     'hrsh7th/cmp-path',
     'hrsh7th/cmp-cmdline',
     'hrsh7th/nvim-cmp',
-    -- ColorSchemes
+    -- -- ColorSchemes
     'folke/tokyonight.nvim',
     'catppuccin/nvim',	
     'rebelot/kanagawa.nvim',
     'sainnhe/gruvbox-material',
-    'marko-cerovac/material.nvim',
     'cocopon/iceberg.vim',
     'sainnhe/everforest',
     'akinsho/horizon.nvim',
-    'sainnhe/sonokai',
     'rose-pine/neovim',
 })
