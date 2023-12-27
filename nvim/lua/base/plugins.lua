@@ -5,25 +5,21 @@ require('lazy').setup({
     'tpope/vim-commentary',
     -- Lualine
     'nvim-lualine/lualine.nvim',
-    -- Icons
-    'nvim-tree/nvim-web-devicons',
     -- File Manager
-    'nvim-tree/nvim-tree.lua',
+    { 'nvim-tree/nvim-tree.lua', dependencies = { "nvim-tree/nvim-web-devicons" } },
     -- -- Snippets
     { "L3MON4D3/LuaSnip", dependencies = { "rafamadriz/friendly-snippets" } },
     -- Auto Pairing
     { 'windwp/nvim-autopairs', event = 'InsertEnter' },
     -- Auto Completion
-    'neovim/nvim-lspconfig',
+    'hrsh7th/nvim-cmp',
     'hrsh7th/cmp-nvim-lsp',
+    'neovim/nvim-lspconfig',
     'saadparwaiz1/cmp_luasnip',
-    'hrsh7th/cmp-buffer',
     'hrsh7th/cmp-path',
     'hrsh7th/cmp-cmdline',
-    'hrsh7th/nvim-cmp',
     -- -- ColorSchemes
     'folke/tokyonight.nvim',
-    'catppuccin/nvim',	
     'rebelot/kanagawa.nvim',
     'sainnhe/gruvbox-material',
     'cocopon/iceberg.vim',

@@ -1,4 +1,4 @@
-local current_theme = 'rose-pine'
+local current_theme = 'horizon'
 
 -- Theme Preferences
     -- EverForest
