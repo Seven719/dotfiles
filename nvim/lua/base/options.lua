@@ -5,8 +5,14 @@ local op = vim.opt
 g.loaded_netrw = 1
 g.loaded_netrwPlugin = 1
 
+-- Mouse
+op.mouse = ""
+vim.opt.guicursor = ""
+
 -- Tabbing
 o.cindent = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
 o.shiftwidth = 4
 o.expandtab = true
 
@@ -23,8 +29,6 @@ o.cursorline = true
 
 -- Number of screen lines to keep above and below the cursor
 o.scrolloff = 8
--- Mouse
-op.mouse = ""
 -- ClipBoard
 op.clipboard = "unnamedplus"
 -- SQL Change
