@@ -10,8 +10,7 @@ require('lazy').setup({
     -- File Manager
     'nvim-tree/nvim-tree.lua',
     -- -- Snippets
-    'L3MON4D3/LuaSnip',
-    'rafamadriz/friendly-snippets',
+    { "L3MON4D3/LuaSnip", dependencies = { "rafamadriz/friendly-snippets" } },
     -- Auto Pairing
     { 'windwp/nvim-autopairs', event = 'InsertEnter' },
     -- Auto Completion
