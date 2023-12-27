@@ -24,6 +24,6 @@ bind('x', '<S-Tab>', [[<gv]])
 bind('n', '<C-a>', 'ggVG')
 
 -- Tabs in neovim
-bind('n', '<Leader>e', ':BufferNext<CR>')
-bind('n', '<Leader>q', ':BufferPrevious<CR>')
-bind('n', '<Leader>w', ':BufferClose<CR>')
+bind('n', '<Leader>e', ':bnext<CR>')
+bind('n', '<Leader>q', ':bprevious<CR>')
+bind('n', '<Leader>w', ':bdelete<CR>')
