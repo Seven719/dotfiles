@@ -2,8 +2,8 @@ sw_volume: 36
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 19
-time: 145.283000
+current: 50
+time: 190.322000
 random: 0
 repeat: 1
 single: 0
@@ -32,44 +32,43 @@ playlist_begin
 17:ChillTime/K.A.A.N. - The Good Book [XskMYmLMkdc].opus
 18:ChillTime/Kabes - Pressure [XGHNuZiUtvo].opus
 19:ChillTime/Kabes – Explore [ifVT6pEobTA].opus
-20:ChillTime/Led Zeppelin - All My Love (Instrumental) [R0mJsVruyus].opus
-21:ChillTime/Led Zeppelin - Moby Dick (Official Audio) [2N_xP67utPk].opus
-22:ChillTime/Lynyrd Skynyrd - Free Bird (Official Audio) [0LwcvjNJTuM].opus
-23:ChillTime/Mastodon - Black Tongue [XkPzOJbAN0A][rebalanced].mp3
-24:ChillTime/Mazde ft. Khary - Neverland [CYnC9VhcAJA].opus
-25:ChillTime/neeks - 1_26 AM [_1UuWeLIX9Q].opus
-26:ChillTime/øneheart - outside [DluKocv_BOA].opus
-27:ChillTime/øneheart x reidenshi - snowfall [LlN8MPS7KQs].opus
-28:ChillTime/PETIT BISCUIT - Sunset Lover [wuCK-oiE3rM].opus
-29:ChillTime/PlayaPhonk - Keraunos [KuSLrOCR4EE].opus
-30:ChillTime/Prithvi x Kanisan - Embers [o7yViYUT4-U].opus
-31:ChillTime/Ramson Badbonez & DJ Fingerfood - Hypnodic (OFFICIAL VIDEO) [axBYx4pUv9g].opus
-32:ChillTime/Slee!   Needle Dropper Freestyle Instrumental! [BWZd5Slrhww].opus
-33:ChillTime/Sub Morphine - DataMine [E_JllyHYuf4].opus
-34:ChillTime/憂鬱 - Sun [oxoqm05c7yA].opus
-35:ChillTime/Snowman [3lUtzMrRV04].opus
-36:ChillTime/8-bit Sheriff [c35atEBBxgU].opus
-37:ChillTime/Mr. Scary [fOmggRPbTc4].opus
-38:ChillTime/Moon Theme [gtAlB65LTDM].opus
-39:ChillTime/.__ [cL9pbOB7N6s].opus
-40:ChillTime/Bricks [lqZD3OdLUpY].opus
-41:ChillTime/Divine [mAk2SYQerRw].opus
-42:ChillTime/Frankenstein [b-V5Qh5WD3U].opus
-43:ChillTime/Prideful [r9TNMZ93jrU].opus
-44:ChillTime/Nameless [W6wNyE8amdQ].opus
-45:ChillTime/STRANGER [jNd_LxLnIkM].opus
-46:ChillTime/Bloom [OFP3lEHOpA8].opus
-47:ChillTime/Nosferatu [BGNgkNX0cMQ].opus
-48:ChillTime/Stella [iVAIFMF-szg].opus
-49:ChillTime/Star Shopping (Slowed) [neu1pwGP38U].opus
-50:ChillTime/Jingle Bell Rock [Z0ajuTaHBtM].opus
-51:ChillTime/The Ultra-Violence [oaSeY_IzKjs].opus
-52:ChillTime/Ultra Orange [mV0MDbuRC3s].opus
-53:ChillTime/Humbot [wEW5UWGO0n8].opus
-54:ChillTime/5_32pm [UB6j7YjdLk8].opus
-55:Noise/Electric Heater Fan Sound + Black Screen for Sleeping = Heater White Noise [ph9GgHJMqXg].opus
-56:Noise/Hiding from a Heavy Rain and Thunderstorm in Cave Fireplace Sounds for 12 hours,Sleep, Study, Relax [lWLUJHtlYyM].opus
-57:Noise/Snowstorm, Blizzard & Howling Winds ｜ 10 Hours Relaxing Sounds for Sleep, Insomnia, Wooden Cabin 4K [CQSfI_tXZLY].opus
-58:Noise/10 Hours Of Wii Theme Music (Mii Song) [Twi92KYddW4].opus
-59:Noise/Kokiri Forest 10 Hours - Zelda Ocarina of Time [qcBLl4z5Sig].opus
+20:ChillTime/Led Zeppelin - Moby Dick (Official Audio) [2N_xP67utPk].opus
+21:ChillTime/Lynyrd Skynyrd - Free Bird (Official Audio) [0LwcvjNJTuM].opus
+22:ChillTime/Mastodon - Black Tongue [XkPzOJbAN0A][rebalanced].mp3
+23:ChillTime/Mazde ft. Khary - Neverland [CYnC9VhcAJA].opus
+24:ChillTime/neeks - 1_26 AM [_1UuWeLIX9Q].opus
+25:ChillTime/øneheart - outside [DluKocv_BOA].opus
+26:ChillTime/øneheart x reidenshi - snowfall [LlN8MPS7KQs].opus
+27:ChillTime/PETIT BISCUIT - Sunset Lover [wuCK-oiE3rM].opus
+28:ChillTime/PlayaPhonk - Keraunos [KuSLrOCR4EE].opus
+29:ChillTime/Prithvi x Kanisan - Embers [o7yViYUT4-U].opus
+30:ChillTime/Ramson Badbonez & DJ Fingerfood - Hypnodic (OFFICIAL VIDEO) [axBYx4pUv9g].opus
+31:ChillTime/Slee!   Needle Dropper Freestyle Instrumental! [BWZd5Slrhww].opus
+32:ChillTime/Sub Morphine - DataMine [E_JllyHYuf4].opus
+33:ChillTime/憂鬱 - Sun [oxoqm05c7yA].opus
+34:ChillTime/Snowman [3lUtzMrRV04].opus
+35:ChillTime/8-bit Sheriff [c35atEBBxgU].opus
+36:ChillTime/Mr. Scary [fOmggRPbTc4].opus
+37:ChillTime/Moon Theme [gtAlB65LTDM].opus
+38:ChillTime/.__ [cL9pbOB7N6s].opus
+39:ChillTime/Bricks [lqZD3OdLUpY].opus
+40:ChillTime/Divine [mAk2SYQerRw].opus
+41:ChillTime/Frankenstein [b-V5Qh5WD3U].opus
+42:ChillTime/Prideful [r9TNMZ93jrU].opus
+43:ChillTime/Nameless [W6wNyE8amdQ].opus
+44:ChillTime/STRANGER [jNd_LxLnIkM].opus
+45:ChillTime/Bloom [OFP3lEHOpA8].opus
+46:ChillTime/Nosferatu [BGNgkNX0cMQ].opus
+47:ChillTime/Stella [iVAIFMF-szg].opus
+48:ChillTime/Star Shopping (Slowed) [neu1pwGP38U].opus
+49:ChillTime/Jingle Bell Rock [Z0ajuTaHBtM].opus
+50:ChillTime/The Ultra-Violence [oaSeY_IzKjs].opus
+51:ChillTime/Ultra Orange [mV0MDbuRC3s].opus
+52:ChillTime/Humbot [wEW5UWGO0n8].opus
+53:ChillTime/5_32pm [UB6j7YjdLk8].opus
+54:Noise/Electric Heater Fan Sound + Black Screen for Sleeping = Heater White Noise [ph9GgHJMqXg].opus
+55:Noise/Hiding from a Heavy Rain and Thunderstorm in Cave Fireplace Sounds for 12 hours,Sleep, Study, Relax [lWLUJHtlYyM].opus
+56:Noise/Snowstorm, Blizzard & Howling Winds ｜ 10 Hours Relaxing Sounds for Sleep, Insomnia, Wooden Cabin 4K [CQSfI_tXZLY].opus
+57:Noise/10 Hours Of Wii Theme Music (Mii Song) [Twi92KYddW4].opus
+58:Noise/Kokiri Forest 10 Hours - Zelda Ocarina of Time [qcBLl4z5Sig].opus
 playlist_end

@@ -4,4 +4,4 @@
     vim.g.everforest_better_performance = 1
 
 -- Set The Theme
-vim.cmd('colorscheme horizon')
+vim.cmd('colorscheme rose-pine')
