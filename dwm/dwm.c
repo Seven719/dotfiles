@@ -708,7 +708,7 @@ drawbar(Monitor *m)
 	if (!m->showbar)
 		return;
 
-	if (m == selmon) { 
+	if (m == selmon) {
 		drw_setscheme(drw, scheme[SchemeNorm]);
 		tw = TEXTW(stext) - lrpad; // right padding for showing the app name
 		drw_text(drw, m->ww - tw, 0, tw, bh, 0, stext, 0);
@@ -734,18 +734,12 @@ drawbar(Monitor *m)
         drw_text(drw, x, 0, w, bh, lrpad / 2, tags[i], urg & 1 << i);
         x += w;
     }
-
-	w = TEXTW(m->ltsymbol);
-
+    w = TEXTW(m->ltsymbol);
 	if ((w = m->ww - tw - x) > bh) {
-		if (m->sel) {
-			drw_setscheme(drw, scheme[m == selmon ? SchemeSel : SchemeNorm]);
-		} else {
-			drw_setscheme(drw, scheme[SchemeNorm]);
-			drw_rect(drw, x, 0, w, bh, 1, 1);
-		}
-	}
-	drw_map(drw, m->barwin, 0, 0, m->ww, bh);
+        drw_setscheme(drw, scheme[SchemeNorm]);
+        drw_rect(drw, x, 0, w, bh, 1, 1);
+    }
+    drw_map(drw, m->barwin, 0, 0, m->ww, bh);
 }
 
 void
