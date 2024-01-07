@@ -20,3 +20,6 @@ vim.o.relativenumber = true
 vim.o.number = true
 vim.o.signcolumn = 'no'
 vim.o.cursorline = true
+
+-- Make neovim respond faster
+vim.opt.updatetime = 50
