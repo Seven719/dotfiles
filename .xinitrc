@@ -1,8 +1,5 @@
 #! /bin/sh
 
-# Restore Wallpaper
-nitrogen --restore &
-
 # DATE and RAM in Status Bar
 dte(){
     dte="$(date +'%A, %B %d - %H:%M')"
@@ -19,6 +16,8 @@ while true;do
     sleep 10s
 done &
 
+# Restore Wallpaper
+nitrogen --restore &
 # Flameshot
 flameshot &
 # DWM
