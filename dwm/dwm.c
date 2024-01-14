@@ -710,7 +710,7 @@ drawbar(Monitor *m)
 
 	if (m == selmon) {
 		drw_setscheme(drw, scheme[SchemeNorm]);
-		tw = TEXTW(stext) - lrpad; // right padding for showing the app name
+		tw = TEXTW(stext) - lrpad + 2; // right padding for showing the app name
 		drw_text(drw, m->ww - tw, 0, tw, bh, 0, stext, 0);
 	}
 
