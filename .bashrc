@@ -1,5 +1,4 @@
 [[ $- != *i* ]] && return
-
 # PATHS
 export PATH="$PATH:$HOME/.cargo/bin"
 # bash prompt
@@ -37,3 +36,4 @@ alias nvmopen="source ~/.nvm/nvm.sh"
 alias img="gpicview"
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+. "$HOME/.cargo/env"

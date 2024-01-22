@@ -14,3 +14,7 @@ vim.opt.runtimepath:prepend(lazypath)
 
 require('base')
 require('configs')
+
+return {
+    defaults = { lazy = true },
+}
