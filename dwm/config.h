@@ -69,6 +69,7 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",  NULL,       NULL,       1 << 0,       0,           -1 },
 	{ "discord",  NULL, 	  NULL,       1 << 2,       0,           -1 },
+	{ "Signal",  "signal", 	  NULL,       1 << 2,       0,           -1 },
         { NULL,       NULL,       NULL,       0,            0,           -1 },
 };
 

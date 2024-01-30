@@ -31,8 +31,8 @@ require('luasnip.loaders.from_vscode').lazy_load()
 
 cmp.setup({
     sources = {
-        {name = 'nvim_lsp'},
-        {name = 'luasnip'},   
+        { name = 'nvim_lsp'},
+        { name = 'luasnip'},   
         { name = 'path' },
     },
     mapping = cmp.mapping.preset.insert({ 
@@ -56,4 +56,3 @@ cmp.setup.cmdline(':', {
         { name = 'cmdline' },
     })
 })
-

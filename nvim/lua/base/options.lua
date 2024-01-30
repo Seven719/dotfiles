@@ -1,3 +1,13 @@
+-- ColorScheme
+vim.g.everforest_background = 'hard'
+vim.g.everforest_better_performance = 1
+vim.cmd('colorscheme rose-pine')
+
+---------------------------------------- Options -----------------------------------------
+-- Persistent Undo
+vim.opt.undofile = true
+-- Make neovim respond faster
+vim.opt.updatetime = 50
 -- ClipBoard
 vim.opt.clipboard = "unnamedplus"
 
@@ -9,23 +19,19 @@ vim.opt.background = "dark"
 vim.opt.mouse = ""
 vim.opt.guicursor = ""
 
+-- Side Bar
+vim.o.number = true
+vim.o.signcolumn = 'no'
+vim.opt.cursorline = true
+vim.opt.numberwidth = 4
+vim.opt.ruler = false
+
 -- Indenting
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 4
 vim.opt.smartindent = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
-
 vim.opt.fillchars = { eob = " " }
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-
--- Side Bar
-vim.o.number = true
-vim.o.signcolumn = 'no'
-vim.o.cursorline = true
-vim.opt.numberwidth = 4
-vim.opt.ruler = false
-
--- Make neovim respond faster
--- vim.opt.updatetime = 50
