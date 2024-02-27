@@ -18,6 +18,8 @@ done &
 
 # Restore Wallpaper
 nitrogen --restore &
+# Compositor For Transparency
+picom &
 # Flameshot
 flameshot &
 # DWM
