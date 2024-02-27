@@ -10,7 +10,6 @@ vim.opt.undofile = true
 vim.opt.updatetime = 50
 -- ClipBoard
 vim.opt.clipboard = "unnamedplus"
-
 -- Colors
 vim.opt.termguicolors = true
 vim.opt.background = "dark"

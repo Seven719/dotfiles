@@ -1,18 +1,26 @@
 local plugins = {
-    -- ColorScheme
-    'rose-pine/neovim',
+    -- Focus
+    "folke/twilight.nvim",
+    "folke/zen-mode.nvim",
     -- TreeSitter
     'nvim-treesitter/nvim-treesitter',	
     -- Auto Pairing
     'windwp/nvim-autopairs',
     -- Comment Shortcut
-    {'numToStr/Comment.nvim', lazy = false, config = function ()
-        require('Comment').setup()
-    end},
+    'tpope/vim-commentary',
     -- Rust Auto Formating
     {'rust-lang/rust.vim', ft = "rust", 
         init = function ()
            vim.g.rustfmt_autosave = 1 
+        end
+    },
+    -- ColorScheme
+    {'rose-pine/neovim',
+        as = 'rose-pine',
+        config = function()
+            require('rose-pine').setup({
+                disable_background = true
+            })
         end
     },
     -- LSP Configs
