@@ -1,0 +1,12 @@
+# Ignore everything in .config/ directory
+*
+
+# Except the following files and directories
+!nvim/
+!dwm/
+!st/
+!mpd/
+!ncmpcpp/
+!picom/
+!screenshot1.png
+!screenshot2.png
