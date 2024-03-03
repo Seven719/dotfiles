@@ -2,11 +2,6 @@ local bind = function(mode, lhs, rhs)
     vim.api.nvim_set_keymap(mode, lhs, rhs, { noremap = true, silent = true })
 end
 
--- function toggle_focus()
---     vim.cmd(':ZenMode')
---     vim.cmd(':Twilight')
--- end
-
 -- Shift + K/J
 bind('n', 'K', ':m .-2<CR>==')
 bind('n', 'J', ':m .+1<CR>==')

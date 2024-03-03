@@ -1,33 +1,21 @@
 local cmp = require('cmp')
 local cmp_action = require('lsp-zero').cmp_action()
-local cmp_format = require('lsp-zero').cmp_format()
-local lspconfig = require('lspconfig')
 local lsp_zero = require('lsp-zero')
-local util = require("lspconfig/util") 
+local snippets = require('luasnip.loaders.from_vscode')
+local mason = require('mason')
+local mason_lspconfig = require('mason-lspconfig')
 
-require('mason').setup({})
-require('mason-lspconfig').setup({
-    ensure_installed = {"clangd", "lua_ls", "rust_analyzer", "pyright", "tsserver"},
+mason.setup({})
+mason_lspconfig.setup({
+    ensure_installed = {'clangd', 'lua_ls', 'rust_analyzer', 'pyright', 'tsserver'},
     handlers = {
         lsp_zero.default_setup,
     },
 })
 
-lspconfig.rust_analyzer.setup({
-    filetypes = {"rust"},
-    root_dir = util.root_pattern("Cargo.toml"),
-    settings = {
-        ['rust-analyzer'] = {
-            cargo = {
-                allFeatures = true,
-            }
-        }
-    }
-})
+vim.lsp.handlers['textDocument/publishDiagnostics'] = function() end
 
-vim.lsp.handlers["textDocument/publishDiagnostics"] = function() end
-
-require('luasnip.loaders.from_vscode').lazy_load()
+snippets.lazy_load()
 
 cmp.setup({
     sources = {

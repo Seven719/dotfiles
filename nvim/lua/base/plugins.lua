@@ -1,17 +1,24 @@
 local plugins = {
-    -- Focus
-    "folke/twilight.nvim",
-    "folke/zen-mode.nvim",
     -- TreeSitter
-    'nvim-treesitter/nvim-treesitter',	
+    {'nvim-treesitter/nvim-treesitter',
+        config = function ()
+            require('configs.treesitter')
+        end},
     -- Auto Pairing
-    'windwp/nvim-autopairs',
+    {'windwp/nvim-autopairs',
+        event = 'InsertEnter',
+        config = function ()
+            require('configs.autopairs')
+        end},
     -- Comment Shortcut
     'tpope/vim-commentary',
     -- Rust Auto Formating
-    {'rust-lang/rust.vim', ft = "rust", 
+    {'rust-lang/rust.vim', ft = 'rust',
+        dependencies = {
+            'mrcjkb/rustaceanvim',
+        },
         init = function ()
-           vim.g.rustfmt_autosave = 1 
+           vim.g.rustfmt_autosave = 1
         end
     },
     -- ColorScheme
@@ -35,55 +42,17 @@ local plugins = {
             'saadparwaiz1/cmp_luasnip',
             -- Snippets
             'L3MON4D3/LuaSnip',
-            'rafamadriz/friendly-snippets', 
+            'rafamadriz/friendly-snippets',
             -- LSPs Installation
             'williamboman/mason.nvim',
             'williamboman/mason-lspconfig.nvim',
-        }
+        },
+        config = function ()
+            require('configs.autocomplete')
+        end
     },
 }
 
-local opts = {
-  performance = {
-    rtp = {
-      disabled_plugins = {
-        "2html_plugin",
-        "tohtml",
-        "getscript",
-        "getscriptPlugin",
-        "gzip",
-        "logipat",
-        "netrw",
-        "netrwPlugin",
-        "netrwSettings",
-        "netrwFileHandlers",
-        "matchit",
-        "tar",
-        "tarPlugin",
-        "rrhelper",
-        "spellfile_plugin",
-        "vimball",
-        "vimballPlugin",
-        "zip",
-        "zipPlugin",
-        "tutor",
-        "rplugin",
-        "syntax",
-        "synmenu",
-        "optwin",
-        "compiler",
-        "bugreport",
-        "ftplugin",
-        "editorconfig",
-        "health",
-        "man",
-        "matchparen",
-        "nvim",
-        "shada",
-        "spellfile",
-      },
-    },
-  },
-}
+local opts = {}
 
 require('lazy').setup(plugins, opts)
