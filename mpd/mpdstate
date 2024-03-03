@@ -1,9 +1,9 @@
-sw_volume: 48
+sw_volume: 66
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 50
-time: 395.630000
+state: play
+current: 36
+time: 120.028000
 random: 0
 repeat: 1
 single: 0
@@ -12,63 +12,69 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:ChillTime/Jingle Bell Rock [Z0ajuTaHBtM].opus
-1:ChillTime/90sFlav - Call me [VLtSCBSaCIQ].opus
-2:ChillTime/burbank - sorry i like you [GgVcgbtHY9k].opus
-3:ChillTime/Chill Bump - Four (Official Audio) [60lBb2oqpMY].opus
-4:ChillTime/Chill Bump - Save the Day (Official Audio) [AKidOTIU_x8].opus
-5:ChillTime/halberd - i drove her home, and now we're dating [vg4t2XI4bmM].opus
-6:ChillTime/Hi-Rez - White Tiger [Yvc6uOKiWQk].opus
-7:ChillTime/hisohkah - school rooftop [Og6Yu54arDE].opus
-8:ChillTime/ibrahim - a world at peace [kPc0dZ8aysA].opus
-9:ChillTime/Inaction is a Slow Death - Original Score [SleeNttNzww].opus
-10:ChillTime/Iron Maiden - Transylvania [nrKQa5PfUbw].opus
-11:ChillTime/J.Rob The Chief - Goat Talk (Sugar Sean) [Official Music Video] . [pO-bst7rtPs].opus
-12:ChillTime/j^p^n - amend [nSEkh4mgYqc].opus
-13:ChillTime/j^p^n - Begun [JdYyxGGneDU].opus
-14:ChillTime/j^p^n - getover [KSpjdauaJfQ].opus
-15:ChillTime/j^p^n - Herse [0yAjCohG1LE].opus
-16:ChillTime/j^p^n - loveyou. [] [9YzXVEVbJME].opus
-17:ChillTime/K.A.A.N. - The Good Book [XskMYmLMkdc].opus
-18:ChillTime/Kabes - Pressure [XGHNuZiUtvo].opus
-19:ChillTime/Kabes – Explore [ifVT6pEobTA].opus
-20:ChillTime/Led Zeppelin - Moby Dick (Official Audio) [2N_xP67utPk].opus
-21:ChillTime/Lynyrd Skynyrd - Free Bird (Official Audio) [0LwcvjNJTuM].opus
-22:ChillTime/Mastodon - Black Tongue [XkPzOJbAN0A][rebalanced].mp3
-23:ChillTime/Mazde ft. Khary - Neverland [CYnC9VhcAJA].opus
-24:ChillTime/neeks - 1_26 AM [_1UuWeLIX9Q].opus
-25:ChillTime/øneheart - outside [DluKocv_BOA].opus
-26:ChillTime/øneheart x reidenshi - snowfall [LlN8MPS7KQs].opus
-27:ChillTime/PETIT BISCUIT - Sunset Lover [wuCK-oiE3rM].opus
-28:ChillTime/PlayaPhonk - Keraunos [KuSLrOCR4EE].opus
-29:ChillTime/Prithvi x Kanisan - Embers [o7yViYUT4-U].opus
-30:ChillTime/Ramson Badbonez & DJ Fingerfood - Hypnodic (OFFICIAL VIDEO) [axBYx4pUv9g].opus
-31:ChillTime/Slee!   Needle Dropper Freestyle Instrumental! [BWZd5Slrhww].opus
-32:ChillTime/Sub Morphine - DataMine [E_JllyHYuf4].opus
-33:ChillTime/憂鬱 - Sun [oxoqm05c7yA].opus
-34:ChillTime/Snowman [3lUtzMrRV04].opus
-35:ChillTime/8-bit Sheriff [c35atEBBxgU].opus
-36:ChillTime/Mr. Scary [fOmggRPbTc4].opus
-37:ChillTime/Moon Theme [gtAlB65LTDM].opus
-38:ChillTime/.__ [cL9pbOB7N6s].opus
-39:ChillTime/Bricks [lqZD3OdLUpY].opus
-40:ChillTime/Divine [mAk2SYQerRw].opus
-41:ChillTime/Frankenstein [b-V5Qh5WD3U].opus
-42:ChillTime/Prideful [r9TNMZ93jrU].opus
-43:ChillTime/Nameless [W6wNyE8amdQ].opus
-44:ChillTime/STRANGER [jNd_LxLnIkM].opus
-45:ChillTime/Bloom [OFP3lEHOpA8].opus
-46:ChillTime/Nosferatu [BGNgkNX0cMQ].opus
-47:ChillTime/Stella [iVAIFMF-szg].opus
-48:ChillTime/Star Shopping (Slowed) [neu1pwGP38U].opus
-49:ChillTime/Jingle Bell Rock [Z0ajuTaHBtM].opus
-50:ChillTime/The Ultra-Violence [oaSeY_IzKjs].opus
-51:ChillTime/Ultra Orange [mV0MDbuRC3s].opus
-52:ChillTime/Humbot [wEW5UWGO0n8].opus
-53:ChillTime/5_32pm [UB6j7YjdLk8].opus
-54:Noise/Electric Heater Fan Sound + Black Screen for Sleeping = Heater White Noise [ph9GgHJMqXg].opus
-55:Noise/Hiding from a Heavy Rain and Thunderstorm in Cave Fireplace Sounds for 12 hours,Sleep, Study, Relax [lWLUJHtlYyM].opus
-56:Noise/Snowstorm, Blizzard & Howling Winds ｜ 10 Hours Relaxing Sounds for Sleep, Insomnia, Wooden Cabin 4K [CQSfI_tXZLY].opus
-57:Noise/10 Hours Of Wii Theme Music (Mii Song) [Twi92KYddW4].opus
-58:Noise/Kokiri Forest 10 Hours - Zelda Ocarina of Time [qcBLl4z5Sig].opus
+0:Chill/90sFlav - Call me [VLtSCBSaCIQ].opus
+1:Chill/burbank - sorry i like you [GgVcgbtHY9k].opus
+2:Chill/Chill Bump - Four (Official Audio) [60lBb2oqpMY].opus
+3:Chill/Chill Bump - Life Has Value [Official Audio] [H1MBRElQrFE].opus
+4:Chill/Chill Bump - Save the Day (Official Audio) [AKidOTIU_x8].opus
+5:Chill/Crystal Castles - Transgender [FQStbwNCl2Y].opus
+6:Chill/halberd - i drove her home, and now we're dating [vg4t2XI4bmM].opus
+7:Chill/Hi-Rez - White Tiger [Yvc6uOKiWQk].opus
+8:Chill/hisohkah - school rooftop [Og6Yu54arDE].opus
+9:Chill/ibrahim - a world at peace [kPc0dZ8aysA].opus
+10:Chill/Iron Maiden - Transylvania [nrKQa5PfUbw].opus
+11:Chill/J.Rob The Chief - Goat Talk (Sugar Sean) [Official Music Video] . [pO-bst7rtPs].opus
+12:Chill/j^p^n - amend [nSEkh4mgYqc].opus
+13:Chill/j^p^n - Begun [JdYyxGGneDU].opus
+14:Chill/j^p^n - getover [KSpjdauaJfQ].opus
+15:Chill/j^p^n - Herse [0yAjCohG1LE].opus
+16:Chill/j^p^n - loveyou. [] [9YzXVEVbJME].opus
+17:Chill/K.A.A.N. - The Good Book [XskMYmLMkdc].opus
+18:Chill/Kabes - Pressure [XGHNuZiUtvo].opus
+19:Chill/Kabes – Explore [ifVT6pEobTA].opus
+20:Chill/Mastodon - Black Tongue [XkPzOJbAN0A][rebalanced].mp3
+21:Chill/Mazde ft. Khary - Neverland [CYnC9VhcAJA].opus
+22:Chill/neeks - 1_26 AM [_1UuWeLIX9Q].opus
+23:Chill/øneheart - outside [DluKocv_BOA].opus
+24:Chill/øneheart x reidenshi - snowfall [LlN8MPS7KQs].opus
+25:Chill/PlayaPhonk - Keraunos [KuSLrOCR4EE].opus
+26:Chill/Prithvi x Kanisan - Embers [o7yViYUT4-U].opus
+27:Chill/Purrple Cat - Bloom [e6m0NEkRc9M].opus
+28:Chill/Purrple Cat - Firelight [IMpmUJdADlY].opus
+29:Chill/Ramson Badbonez & DJ Fingerfood - Hypnodic (OFFICIAL VIDEO) [axBYx4pUv9g].opus
+30:Chill/Sub Morphine - DataMine [E_JllyHYuf4].opus
+31:Chill/The Black Keys - Lonely Boy [Official Music Video] [a_426RiwST8].opus
+32:Chill/憂鬱 - Sun [oxoqm05c7yA].opus
+33:Chill/Snowman [3lUtzMrRV04].opus
+34:Chill/8-bit Sheriff [c35atEBBxgU].opus
+35:Chill/Flying [z-qCysY6y74].opus
+36:Chill/Breathtaking [wvJgGh1EpaU].opus
+37:Chill/Mr. Scary [fOmggRPbTc4].opus
+38:Chill/Moon Theme [gtAlB65LTDM].opus
+39:Chill/Backwards [HPEJDNbWGzg].opus
+40:Chill/Dancing Shadows [ooTAuHTvZw0].opus
+41:Chill/Dark Corners [oYQr3vjbYag].opus
+42:Chill/Bricks [lqZD3OdLUpY].opus
+43:Chill/Alien Sky [2lGCOflxKTk].opus
+44:Chill/Finding Myself [pcVQKNQSMM0].opus
+45:Chill/Alienated [oBbSYRwu8pw].opus
+46:Chill/Better Days [9c9VKg2kzrY].opus
+47:Chill/Dark Moon [WoJPu7TvW3Y].opus
+48:Chill/Divine [mAk2SYQerRw].opus
+49:Chill/Essence of the Forest [Se2nhydnTIg].opus
+50:Chill/Frankenstein [b-V5Qh5WD3U].opus
+51:Chill/Ghost Town [ycYgaZxozzQ].opus
+52:Chill/Gentle Breeze [9z0-A0AK-qA].opus
+53:Chill/Prideful [r9TNMZ93jrU].opus
+54:Chill/Nameless [W6wNyE8amdQ].opus
+55:Chill/STRANGER [jNd_LxLnIkM].opus
+56:Chill/Bloom [OFP3lEHOpA8].opus
+57:Chill/Nosferatu [BGNgkNX0cMQ].opus
+58:Chill/Deja Vu [0IumeJT5HIA].opus
+59:Chill/Stella [iVAIFMF-szg].opus
+60:Chill/Jingle Bell Rock [Z0ajuTaHBtM].opus
+61:Chill/Ultra Orange [mV0MDbuRC3s].opus
+62:Chill/Humbot [wEW5UWGO0n8].opus
+63:Chill/5_32pm [UB6j7YjdLk8].opus
+64:Chill/Chilly [E4WDsak7hIU].opus
 playlist_end
