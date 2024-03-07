@@ -2,8 +2,8 @@ sw_volume: 66
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: play
-current: 36
-time: 120.028000
+current: 0
+time: 13.706000
 random: 0
 repeat: 1
 single: 0
@@ -12,69 +12,371 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Chill/90sFlav - Call me [VLtSCBSaCIQ].opus
-1:Chill/burbank - sorry i like you [GgVcgbtHY9k].opus
-2:Chill/Chill Bump - Four (Official Audio) [60lBb2oqpMY].opus
-3:Chill/Chill Bump - Life Has Value [Official Audio] [H1MBRElQrFE].opus
-4:Chill/Chill Bump - Save the Day (Official Audio) [AKidOTIU_x8].opus
-5:Chill/Crystal Castles - Transgender [FQStbwNCl2Y].opus
-6:Chill/halberd - i drove her home, and now we're dating [vg4t2XI4bmM].opus
-7:Chill/Hi-Rez - White Tiger [Yvc6uOKiWQk].opus
-8:Chill/hisohkah - school rooftop [Og6Yu54arDE].opus
-9:Chill/ibrahim - a world at peace [kPc0dZ8aysA].opus
-10:Chill/Iron Maiden - Transylvania [nrKQa5PfUbw].opus
-11:Chill/J.Rob The Chief - Goat Talk (Sugar Sean) [Official Music Video] . [pO-bst7rtPs].opus
-12:Chill/j^p^n - amend [nSEkh4mgYqc].opus
-13:Chill/j^p^n - Begun [JdYyxGGneDU].opus
-14:Chill/j^p^n - getover [KSpjdauaJfQ].opus
-15:Chill/j^p^n - Herse [0yAjCohG1LE].opus
-16:Chill/j^p^n - loveyou. [] [9YzXVEVbJME].opus
-17:Chill/K.A.A.N. - The Good Book [XskMYmLMkdc].opus
-18:Chill/Kabes - Pressure [XGHNuZiUtvo].opus
-19:Chill/Kabes – Explore [ifVT6pEobTA].opus
-20:Chill/Mastodon - Black Tongue [XkPzOJbAN0A][rebalanced].mp3
-21:Chill/Mazde ft. Khary - Neverland [CYnC9VhcAJA].opus
-22:Chill/neeks - 1_26 AM [_1UuWeLIX9Q].opus
-23:Chill/øneheart - outside [DluKocv_BOA].opus
-24:Chill/øneheart x reidenshi - snowfall [LlN8MPS7KQs].opus
-25:Chill/PlayaPhonk - Keraunos [KuSLrOCR4EE].opus
-26:Chill/Prithvi x Kanisan - Embers [o7yViYUT4-U].opus
-27:Chill/Purrple Cat - Bloom [e6m0NEkRc9M].opus
-28:Chill/Purrple Cat - Firelight [IMpmUJdADlY].opus
-29:Chill/Ramson Badbonez & DJ Fingerfood - Hypnodic (OFFICIAL VIDEO) [axBYx4pUv9g].opus
-30:Chill/Sub Morphine - DataMine [E_JllyHYuf4].opus
-31:Chill/The Black Keys - Lonely Boy [Official Music Video] [a_426RiwST8].opus
-32:Chill/憂鬱 - Sun [oxoqm05c7yA].opus
-33:Chill/Snowman [3lUtzMrRV04].opus
-34:Chill/8-bit Sheriff [c35atEBBxgU].opus
-35:Chill/Flying [z-qCysY6y74].opus
-36:Chill/Breathtaking [wvJgGh1EpaU].opus
-37:Chill/Mr. Scary [fOmggRPbTc4].opus
-38:Chill/Moon Theme [gtAlB65LTDM].opus
-39:Chill/Backwards [HPEJDNbWGzg].opus
-40:Chill/Dancing Shadows [ooTAuHTvZw0].opus
-41:Chill/Dark Corners [oYQr3vjbYag].opus
-42:Chill/Bricks [lqZD3OdLUpY].opus
-43:Chill/Alien Sky [2lGCOflxKTk].opus
-44:Chill/Finding Myself [pcVQKNQSMM0].opus
-45:Chill/Alienated [oBbSYRwu8pw].opus
-46:Chill/Better Days [9c9VKg2kzrY].opus
-47:Chill/Dark Moon [WoJPu7TvW3Y].opus
-48:Chill/Divine [mAk2SYQerRw].opus
-49:Chill/Essence of the Forest [Se2nhydnTIg].opus
-50:Chill/Frankenstein [b-V5Qh5WD3U].opus
-51:Chill/Ghost Town [ycYgaZxozzQ].opus
-52:Chill/Gentle Breeze [9z0-A0AK-qA].opus
-53:Chill/Prideful [r9TNMZ93jrU].opus
-54:Chill/Nameless [W6wNyE8amdQ].opus
-55:Chill/STRANGER [jNd_LxLnIkM].opus
-56:Chill/Bloom [OFP3lEHOpA8].opus
-57:Chill/Nosferatu [BGNgkNX0cMQ].opus
-58:Chill/Deja Vu [0IumeJT5HIA].opus
-59:Chill/Stella [iVAIFMF-szg].opus
-60:Chill/Jingle Bell Rock [Z0ajuTaHBtM].opus
-61:Chill/Ultra Orange [mV0MDbuRC3s].opus
-62:Chill/Humbot [wEW5UWGO0n8].opus
-63:Chill/5_32pm [UB6j7YjdLk8].opus
-64:Chill/Chilly [E4WDsak7hIU].opus
+0:lofi/(FREE) Daniel Caesar Lo-fi Type Beat - Because of you [-4wODYRi_VM].opus
+1:lofi/(FREE) Daniel Caesar Lo-fi Type Beat - Blue Memories [rn7lHBmDbww].opus
+2:lofi/(FREE) Daniel Caesar Lo-fi Type Beat - Love me if it pain you [_07Ah5wg5vk].opus
+3:lofi/(FREE) Lo-fi Type Beat -  Are you still up...？ [pC6mPd-XwIQ].opus
+4:lofi/(FREE) Lo-fi Type Beat -  Don't Leave [4wvQkX8QLDk].opus
+5:lofi/(FREE) Lo-fi Type Beat -  Empty Cup [65oeubowZOQ].opus
+6:lofi/(FREE) Lo-fi Type Beat -  Focus on Me [QjwEdSQC7J4].opus
+7:lofi/(FREE) Lo-fi Type Beat -  I Can't Dream Tonight [C_tyLlzK8Y8].opus
+8:lofi/(FREE) Lo-fi Type Beat -  I Found a Girl [eo7xE9v3a7Q].opus
+9:lofi/(FREE) Lo-fi Type Beat -  I Love... [y2RZWHX4BNM].opus
+10:lofi/(FREE) Lo-fi Type Beat -  I never knew [g_1ea0MreQA].opus
+11:lofi/(FREE) Lo-fi Type Beat -  I never Knew pt. 2 [IEajQlTdI20].opus
+12:lofi/(FREE) Lo-fi Type Beat -  In Always [02G34TKk3xA].opus
+13:lofi/(FREE) Lo-fi Type Beat -  Into You [_Tz8MzlWqyI].opus
+14:lofi/(FREE) Lo-fi Type Beat -  Leave Your Lover [7ppdrliov18].opus
+15:lofi/(FREE) Lo-fi Type Beat -  Love Is Strange [2vM_rnypgBk].opus
+16:lofi/(FREE) Lo-fi Type Beat -  Lovely [-PoQ-TVftFo].opus
+17:lofi/(FREE) Lo-fi Type Beat -  Maybe I’ll Forget [uPJpgAUEDNo].opus
+18:lofi/(FREE) Lo-fi Type Beat -  Moon Girl [rQsMwVUAGXg].opus
+19:lofi/(FREE) Lo-fi Type Beat -  Please Tell Me... [Yugw3Kg_61Q].opus
+20:lofi/(FREE) Lo-fi Type Beat -  Sakura [eoZUxnaAeos].opus
+21:lofi/(FREE) Lo-fi Type Beat -  Save Your Tears [aBiB_pnIm68].opus
+22:lofi/(FREE) Lo-fi Type Beat -  Someday [NHEjCFYxRrk].opus
+23:lofi/(FREE) Lo-fi Type Beat -  Spring Melody [m9pK9xlfJ3M].opus
+24:lofi/(FREE) Lo-fi Type Beat -  Still [3BujMNoduZY].opus
+25:lofi/(FREE) Lo-fi Type Beat -  Where is your heart now [NyQNJPL0K-Q].opus
+26:lofi/(FREE) Lo-fi Type Beat - After I met you in my dream [DIdZuIuDqjY].opus
+27:lofi/(FREE) Lo-fi Type Beat - After the love [peQahERKj-c].opus
+28:lofi/(FREE) Lo-fi Type Beat - Afternoon [tkwvLyZ5jGg].opus
+29:lofi/(FREE) Lo-fi Type Beat - Again [v2xEK3nQzjA].opus
+30:lofi/(FREE) Lo-fi Type Beat - All in love is fair [mCeMzpknXXU].opus
+31:lofi/(FREE) Lo-fi Type Beat - Always [mJyzoSuZmug].opus
+32:lofi/(FREE) Lo-fi Type Beat - Always in my heart [vse3i_pEREk].opus
+33:lofi/(FREE) Lo-fi Type Beat - Always on my mind [98auk5ir2IY].opus
+34:lofi/(FREE) Lo-fi Type Beat - And You... [noB4Vpwqh3o].opus
+35:lofi/(FREE) Lo-fi Type Beat - Angel [f_H7vwtdys4].opus
+36:lofi/(FREE) Lo-fi Type Beat - Another You [FxFpvXD5hOk].opus
+37:lofi/(FREE) Lo-fi Type Beat - Answer [Zn6dI3xmmww].opus
+38:lofi/(FREE) Lo-fi Type Beat - Autumn [FqVrPKQS050].opus
+39:lofi/(FREE) Lo-fi Type Beat - Autumn Breeze [lqjVMe7KAgs].opus
+40:lofi/(FREE) Lo-fi Type Beat - Autumn day [KwQnSHAilOQ].opus
+41:lofi/(FREE) Lo-fi Type Beat - Autumn leaves [vqOCtyieO20].opus
+42:lofi/(FREE) Lo-fi Type Beat - Autumn Melody [bdECmDK_tNk].opus
+43:lofi/(FREE) Lo-fi Type Beat - Autumn Morning [s1-5_ZHLEIs].opus
+44:lofi/(FREE) Lo-fi Type Beat - Autumn Tints [1VIpdVjip1M].opus
+45:lofi/(FREE) Lo-fi Type Beat - Avenue [d8NES3yVWt8].opus
+46:lofi/(FREE) Lo-fi Type Beat - Beautiful [uvhJYPvvFfM].opus
+47:lofi/(FREE) Lo-fi Type Beat - Because I Love [HIFnHZPakL8].opus
+48:lofi/(FREE) Lo-fi Type Beat - Before Sunrise [1x2xeezS9g4].opus
+49:lofi/(FREE) Lo-fi Type Beat - Best Mistake [8Fd77omIrII].opus
+50:lofi/(FREE) Lo-fi Type Beat - Blind In Love [xtQwVInd9Co].opus
+51:lofi/(FREE) Lo-fi Type Beat - Blossoms in our hearts [cTSUOzyvbiY].opus
+52:lofi/(FREE) Lo-fi Type Beat - Breath [AzqCOvX_-Ew].opus
+53:lofi/(FREE) Lo-fi Type Beat - Breathin [XlDoOaaqSkM].opus
+54:lofi/(FREE) Lo-fi Type Beat - Broken heart [-9ma__WtPB4].opus
+55:lofi/(FREE) Lo-fi Type Beat - Brown Eyes [0ZSVH-kkse8].opus
+56:lofi/(FREE) Lo-fi Type Beat - But love remains [jGsp9uzrjyQ].opus
+57:lofi/(FREE) Lo-fi Type Beat - Call Me [13EhmWlD2Cw].opus
+58:lofi/(FREE) Lo-fi Type Beat - Calling [OitabYQ-V58].opus
+59:lofi/(FREE) Lo-fi Type Beat - Can you hear me？ [NCjP9x34V0k].opus
+60:lofi/(FREE) Lo-fi Type Beat - Can't Stop Lovin' You [2Q4nDha4BpE].opus
+61:lofi/(FREE) Lo-fi Type Beat - Candlelight [RByyMbWL-PE].opus
+62:lofi/(FREE) Lo-fi Type Beat - Cause what if I never love again？ [xWAJWeBbFEI].opus
+63:lofi/(FREE) Lo-fi Type Beat - Cerulean blue [ez935ekuyzE].opus
+64:lofi/(FREE) Lo-fi Type Beat - Christmas in my heart [ObzLGX1ECjQ].opus
+65:lofi/(FREE) Lo-fi Type Beat - Christmas waves a magic wand [nT8fbQTvpoE].opus
+66:lofi/(FREE) Lo-fi Type Beat - City [uJ_W88I2_p0].opus
+67:lofi/(FREE) Lo-fi Type Beat - Close To You [OcRTWYzciZk].opus
+68:lofi/(FREE) Lo-fi Type Beat - Close Your Eyes [FdQvXb4Khh4].opus
+69:lofi/(FREE) Lo-fi Type Beat - Coexist [6-DaKEylkqQ].opus
+70:lofi/(FREE) Lo-fi Type Beat - Cold Words [3v6mYGnomxw].opus
+71:lofi/(FREE) Lo-fi Type Beat - Coldest End [0Srz8iH0U1s].opus
+72:lofi/(FREE) Lo-fi Type Beat - Color of Love [dPuarLLGZI8].opus
+73:lofi/(FREE) Lo-fi Type Beat - Come Back Please [QPvJDkOl6vQ].opus
+74:lofi/(FREE) Lo-fi Type Beat - Cry [f-rALRCm6eE].opus
+75:lofi/(FREE) Lo-fi Type Beat - Daisy [SqS7Mr9Vuk0].opus
+76:lofi/(FREE) Lo-fi Type Beat - Days decrease [tpLKYl-fkgc].opus
+77:lofi/(FREE) Lo-fi Type Beat - December Night [O6NDPD_xmoI].opus
+78:lofi/(FREE) Lo-fi Type Beat - Deja Vu [_AjDkYeXnHw].opus
+79:lofi/(FREE) Lo-fi Type Beat - Depths of Love [q7oBUl7AM_k].opus
+80:lofi/(FREE) Lo-fi Type Beat - Destiny [bSu4KITJzEQ].opus
+81:lofi/(FREE) Lo-fi Type Beat - Do you even think about me？ [8hO21cmIOy8].opus
+82:lofi/(FREE) Lo-fi Type Beat - Do you hear me？ [5kSgPNNoez4].opus
+83:lofi/(FREE) Lo-fi Type Beat - Do you remember me？ [tr7W_BXyzzg].opus
+84:lofi/(FREE) Lo-fi Type Beat - Don’t cry [qRofiueIHzc].opus
+85:lofi/(FREE) Lo-fi Type Beat - Don't go... [Y8Ew935ozKY].opus
+86:lofi/(FREE) Lo-fi Type Beat - Don't matter... [_HdeLQFxQ-k].opus
+87:lofi/(FREE) Lo-fi Type Beat - Dream [1vBHZRfHFmw].opus
+88:lofi/(FREE) Lo-fi Type Beat - Dream Lover [HdwnzTbbThY].opus
+89:lofi/(FREE) Lo-fi Type Beat - Dreaming [88oViU6Ur1U].opus
+90:lofi/(FREE) Lo-fi Type Beat - Dreams Come True [QncF4vPkMf0].opus
+91:lofi/(FREE) Lo-fi Type Beat - Emotions [szDTJh5p3_w].opus
+92:lofi/(FREE) Lo-fi Type Beat - Endless [hu-fWWngi2g].opus
+93:lofi/(FREE) Lo-fi Type Beat - Eraser [WtjWIibUajE].opus
+94:lofi/(FREE) Lo-fi Type Beat - Eternity [sTstGXxgTt8].opus
+95:lofi/(FREE) Lo-fi Type Beat - Everyday [TLaFS6aTK9s].opus
+96:lofi/(FREE) Lo-fi Type Beat - Everything [TSuhfSfIScQ].opus
+97:lofi/(FREE) Lo-fi Type Beat - Everything remains the same... [uxy6lSr8VaQ].opus
+98:lofi/(FREE) Lo-fi Type Beat - Fade [10R-pi-k5Jg].opus
+99:lofi/(FREE) Lo-fi Type Beat - Faded Letter [ECLnqYAUdrw].opus
+100:lofi/(FREE) Lo-fi Type Beat - Fallin' Snow [wt-cfmTiQ7M].opus
+101:lofi/(FREE) Lo-fi Type Beat - Falling In Love [cpqMI3A668c].opus
+102:lofi/(FREE) Lo-fi Type Beat - Falling Slowly [BUP3Hzz47AE].opus
+103:lofi/(FREE) Lo-fi Type Beat - Far away [B6p8EnuTQgg].opus
+104:lofi/(FREE) Lo-fi Type Beat - Feeling [kQ6yOSws3QU].opus
+105:lofi/(FREE) Lo-fi Type Beat - Fell In Love [J39wkxLq9Lg].opus
+106:lofi/(FREE) Lo-fi Type Beat - Fine [yLf8GEt6gRw].opus
+107:lofi/(FREE) Lo-fi Type Beat - Fireworks [kdEs2N7Lea0].opus
+108:lofi/(FREE) Lo-fi Type Beat - For the Day [Geay094_JG8].opus
+109:lofi/(FREE) Lo-fi Type Beat - For you [j9AIpMh_0Co].opus
+110:lofi/(FREE) Lo-fi Type Beat - Gift [iHPGR0s_BCU].opus
+111:lofi/(FREE) Lo-fi Type Beat - Goodbye [ql3t7dUeVnk].opus
+112:lofi/(FREE) Lo-fi Type Beat - Gravity [rKASD7fGEoo].opus
+113:lofi/(FREE) Lo-fi Type Beat - Half Moon [W3Yf1aX3Q5E].opus
+114:lofi/(FREE) Lo-fi Type Beat - Happiness [gujh-aFD2oA].opus
+115:lofi/(FREE) Lo-fi Type Beat - Happy alone [hn6wNgZOKMA].opus
+116:lofi/(FREE) Lo-fi Type Beat - Heart [84kgUPE-AJw].opus
+117:lofi/(FREE) Lo-fi Type Beat - Heartbeat [BNAtUo0DTGA].opus
+118:lofi/(FREE) Lo-fi Type Beat - Heaven [LFz1MLbPMgQ].opus
+119:lofi/(FREE) Lo-fi Type Beat - Hello [TjqcKe1y7AQ].opus
+120:lofi/(FREE) Lo-fi Type Beat - Hello, Goodbye [DZPlCCEG9XQ].opus
+121:lofi/(FREE) Lo-fi Type Beat - Her [liUTZEJ1r3g].opus
+122:lofi/(FREE) Lo-fi Type Beat - Highway [aSaSz-HQZmM].opus
+123:lofi/(FREE) Lo-fi Type Beat - Holiday [oynxztS1Gsg].opus
+124:lofi/(FREE) Lo-fi Type Beat - Home [IsPICNFwdzI].opus
+125:lofi/(FREE) Lo-fi Type Beat - Hours [SlHNwfPGWF4].opus
+126:lofi/(FREE) Lo-fi Type Beat - How Can I Forget You？ [G_uzyXGGu4c].opus
+127:lofi/(FREE) Lo-fi Type Beat - How Much I Love You [aUoo1zeaQ7s].opus
+128:lofi/(FREE) Lo-fi Type Beat - I am missing you [3n4WHSp-2Pk].opus
+129:lofi/(FREE) Lo-fi Type Beat - I can feel you... [3JPYc7P9snw].opus
+130:lofi/(FREE) Lo-fi Type Beat - I can't stop [ywoHOya6etg].opus
+131:lofi/(FREE) Lo-fi Type Beat - I can't stop thinking about you [Guq47VOb86U].opus
+132:lofi/(FREE) Lo-fi Type Beat - I can't take it back [tNww3WSxhGg].opus
+133:lofi/(FREE) Lo-fi Type Beat - I Dream [0b4j694ubpc].opus
+134:lofi/(FREE) Lo-fi Type Beat - I Fall in Love Too Easily [WRo-i9xzITo].opus
+135:lofi/(FREE) Lo-fi Type Beat - I feel so alone... [8OOrxoK9eXA].opus
+136:lofi/(FREE) Lo-fi Type Beat - I guess I still miss you... [uSfS6O8pc0k].opus
+137:lofi/(FREE) Lo-fi Type Beat - I Hurt You [MT8soTx9m5Q].opus
+138:lofi/(FREE) Lo-fi Type Beat - I Lost Everything [2ftd5C_gyq8].opus
+139:lofi/(FREE) Lo-fi Type Beat - I met you in my dream [vt4Gsu2EPHo].opus
+140:lofi/(FREE) Lo-fi Type Beat - I miss you... [QzxCLnqoTk4].opus
+141:lofi/(FREE) Lo-fi Type Beat - I Need a Girl [xVf4Zk8CBj0].opus
+142:lofi/(FREE) Lo-fi Type Beat - I Need You [JX2DliOWQ0U].opus
+143:lofi/(FREE) Lo-fi Type Beat - I said i love you [4V6mbTDk3w8].opus
+144:lofi/(FREE) Lo-fi Type Beat - I want you off my mind [yi_ISYLRI-A].opus
+145:lofi/(FREE) Lo-fi Type Beat - I'll be there [8iLA7unmEU0].opus
+146:lofi/(FREE) Lo-fi Type Beat - I'll let you go... [-syKQHZyp9g].opus
+147:lofi/(FREE) Lo-fi Type Beat - I'll Love The Memories [gm-vEdpUq78].opus
+148:lofi/(FREE) Lo-fi Type Beat - I'll Never Love This Way Again [rCJjbnDZBTQ].opus
+149:lofi/(FREE) Lo-fi Type beat - I'm fine [ymDAnEnio7A].opus
+150:lofi/(FREE) Lo-fi Type Beat - I'm in Love [H1yZMHgFk7w].opus
+151:lofi/(FREE) Lo-fi Type Beat - I'm so lonely [f3wsNq2PhAk].opus
+152:lofi/(FREE) Lo-fi Type Beat - I'm so sick of this fake love... [k9pR4rPMF5Y].opus
+153:lofi/(FREE) Lo-fi Type Beat - I'm sorry [BfHE-X_rawM].opus
+154:lofi/(FREE) Lo-fi Type Beat - I've Always Been [AoB2uBsGTe4].opus
+155:lofi/(FREE) Lo-fi Type Beat - I've Got To Leave [LihxirGXnbQ].opus
+156:lofi/(FREE) Lo-fi Type Beat - I've loved you since I met you [jwfBYXqacKk].opus
+157:lofi/(FREE) Lo-fi Type Beat - Ice Cream [008NvElKQL0].opus
+158:lofi/(FREE) Lo-fi Type Beat - If You Remember Me [MKWxPUqIw5I].opus
+159:lofi/(FREE) Lo-fi Type Beat - If you think of me... [g-1VuWp_AiU].opus
+160:lofi/(FREE) Lo-fi Type Beat - if you wanna [f2CYyT8Sum4].opus
+161:lofi/(FREE) Lo-fi Type Beat - In Love [99CHCtWcHUY].opus
+162:lofi/(FREE) Lo-fi Type Beat - In my dreams [-2_zLE_CPU8].opus
+163:lofi/(FREE) Lo-fi Type Beat - In Your Soul [L7cU-De7bKI].opus
+164:lofi/(FREE) Lo-fi Type Beat - Inside [kISj_VW7Flo].opus
+165:lofi/(FREE) Lo-fi Type Beat - Is it too late now？ [Hn6hw4vDyrU].opus
+166:lofi/(FREE) Lo-fi Type Beat - island [YkhR2BP_Fn0].opus
+167:lofi/(FREE) Lo-fi Type Beat - It's been a long time [ZkZQw2TS9fc].opus
+168:lofi/(FREE) Lo-fi Type Beat - It's gonna be alright [xNtx0wPsvQc].opus
+169:lofi/(FREE) Lo-fi Type Beat - It's just a dream [eH-SHIovoLw].opus
+170:lofi/(FREE) Lo-fi Type Beat - It's you [bG6laHE-S84].opus
+171:lofi/(FREE) Lo-fi Type Beat - It's yours [EToNkNuG-DA].opus
+172:lofi/(FREE) Lo-fi Type Beat - Just be friends [Cm_61mmi098].opus
+173:lofi/(FREE) Lo-fi Type Beat - Just the two of us [uChydeE8T30].opus
+174:lofi/(FREE) Lo-fi Type Beat - Just The Way You Are [JDA9_dVd1w4].opus
+175:lofi/(FREE) Lo-fi Type Beat - Last Goodbye [81V4aiHHXho].opus
+176:lofi/(FREE) Lo-fi Type Beat - Last minute [T8fs8V2lM0U].opus
+177:lofi/(FREE) Lo-fi Type Beat - Late Night Drive [QNlilD1s4K0].opus
+178:lofi/(FREE) Lo-fi Type Beat - Let Me Love You [IEh-9SQnb_U].opus
+179:lofi/(FREE) Lo-fi Type Beat - Let me say goodbye [wdbA7diqocQ].opus
+180:lofi/(FREE) Lo-fi Type Beat - Letter [Jnt_lx8OTy8].opus
+181:lofi/(FREE) Lo-fi Type Beat - Lie [uNDnDxdktTI].opus
+182:lofi/(FREE) Lo-fi Type Beat - Like a Bridge [xG33usr0irk].opus
+183:lofi/(FREE) Lo-fi Type Beat - Like a dream [ONZL4EIlOPU].opus
+184:lofi/(FREE) Lo-fi Type Beat - Like a Piano [RQl-dtSekzI].opus
+185:lofi/(FREE) Lo-fi Type Beat - Like Summer [7RAbTEl4Kj8].opus
+186:lofi/(FREE) Lo-fi Type Beat - Like The Sun [yLSkLnKAPKs].opus
+187:lofi/(FREE) Lo-fi Type Beat - Like The Wind [DZ3o0kid0ts].opus
+188:lofi/(FREE) Lo-fi Type Beat - Limbo [YaQOnSy-IpI].opus
+189:lofi/(FREE) Lo-fi Type Beat - Little star [K2EeQw0dOt8].opus
+190:lofi/(FREE) Lo-fi Type Beat - Lonely [lBSuovVAXVQ].opus
+191:lofi/(FREE) Lo-fi Type Beat - Lonely Christmas [JNE1saa9OWg].opus
+192:lofi/(FREE) Lo-fi Type Beat - Lonely night [-sIpRqu6ACs].opus
+193:lofi/(FREE) Lo-fi Type Beat - Lost [nQQppVsJbGo].opus
+194:lofi/(FREE) Lo-fi Type Beat - Love [o3mvuIFmxnk].opus
+195:lofi/(FREE) Lo-fi Type Beat - Love at first sight [44iD2XR2SzY].opus
+196:lofi/(FREE) Lo-fi Type Beat - Love in Paris [_YDBfxzMKCY].opus
+197:lofi/(FREE) Lo-fi Type Beat - Love In Your Eyes [QL6yuxBcA9M].opus
+198:lofi/(FREE) Lo-fi Type Beat - Love is Divine [qadXluZVKR8].opus
+199:lofi/(FREE) Lo-fi Type Beat - Love is our Tomorrows [SIGcRFVVVmc].opus
+200:lofi/(FREE) Lo-fi Type Beat - Love is... [5WMW8-9P_NE].opus
+201:lofi/(FREE) Lo-fi Type Beat - Love Itself [Zb2D8X_WYVU].opus
+202:lofi/(FREE) Lo-fi Type Beat - Love Me Do [VnqYC1r01B4].opus
+203:lofi/(FREE) Lo-fi Type Beat - Love off [9QmIB8huiek].opus
+204:lofi/(FREE) Lo-fi Type Beat - Love you [fo-Yp2-lRTw].opus
+205:lofi/(FREE) Lo-fi Type Beat - Lovely Memory [Y7zXNIzNYOI].opus
+206:lofi/(FREE) Lo-fi Type Beat - Lovely midnight [zIkS8ve78JE].opus
+207:lofi/(FREE) Lo-fi Type Beat - Lovesick [sBMo3oD8DNQ].opus
+208:lofi/(FREE) Lo-fi Type Beat - Loving you [pxjsnPqH3uM].opus
+209:lofi/(FREE) Lo-fi Type Beat - Lucid Dream [99YNdRGwS0Y].opus
+210:lofi/(FREE) Lo-fi Type Beat - Maybe it's not our fault [TGciceQcnSM].opus
+211:lofi/(FREE) Lo-fi Type Beat - Memories [hRgmEDuP-q4].opus
+212:lofi/(FREE) Lo-fi Type Beat - Memory Room [KELO20qBeOY].opus
+213:lofi/(FREE) Lo-fi Type Beat - Midnight [hGRJxiloNZ0].opus
+214:lofi/(FREE) Lo-fi Type Beat - Mine [yCDpgz3mJDI].opus
+215:lofi/(FREE) Lo-fi Type Beat - Mirage [WduDOZHWz7w].opus
+216:lofi/(FREE) Lo-fi Type Beat - Miss You [KTbDP7Kw4lQ].opus
+217:lofi/(FREE) Lo-fi Type Beat - Missing you [NHYsKZ6Jvcw].opus
+218:lofi/(FREE) Lo-fi Type Beat - Mistletoe [8T0VmZdGS-w].opus
+219:lofi/(FREE) Lo-fi Type Beat - Mood [y2CFMShHK4A].opus
+220:lofi/(FREE) Lo-fi Type Beat - Moon [YIAvtODzyYk].opus
+221:lofi/(FREE) Lo-fi Type Beat - Moon River [MCxgrGKtusE].opus
+222:lofi/(FREE) Lo-fi Type Beat - Moonlight [vS_XEAB3U1E].opus
+223:lofi/(FREE) Lo-fi Type Beat - My dear [0hEdu5PhvmE].opus
+224:lofi/(FREE) Lo-fi Type Beat - My Girl [L_1lTHOB4Hc].opus
+225:lofi/(FREE) Lo-fi Type Beat - My Love [tgqigQjNbb0].opus
+226:lofi/(FREE) Lo-fi Type Beat - My mistake [eAjwhmbhMAE].opus
+227:lofi/(FREE) Lo-fi Type Beat - My world [QYzNOJHT1TY].opus
+228:lofi/(FREE) Lo-fi Type Beat - Myosotis [sZRTPRonicA].opus
+229:lofi/(FREE) Lo-fi Type Beat - Never Forget [FyWrGNnu-bc].opus
+230:lofi/(FREE) Lo-fi Type Beat - Never Lose Hope [oRPe0cdLSmU].opus
+231:lofi/(FREE) Lo-fi Type Beat - Never love with all your heart [K5iY2Q0NOi8].opus
+232:lofi/(FREE) Lo-fi Type Beat - Never say never [l0xkP44IW5Y].opus
+233:lofi/(FREE) Lo-fi Type Beat - Neverland [yTzntX43q84].opus
+234:lofi/(FREE) Lo-fi Type Beat - No one... [eg_ZGde6vRo].opus
+235:lofi/(FREE) Lo-fi Type Beat - Nobody [tO-M5R2gFQY].opus
+236:lofi/(FREE) Lo-fi Type Beat - Nostalgia [CbNTyyEPnME].opus
+237:lofi/(FREE) Lo-fi Type Beat - Nothing Better [zok_fdLEcNQ].opus
+238:lofi/(FREE) Lo-fi Type Beat - Now [451hKzfGMXw].opus
+239:lofi/(FREE) Lo-fi Type Beat - October Sky [cMvh6Gypmsg].opus
+240:lofi/(FREE) Lo-fi Type Beat - On my Heart [-j6wRRxlL40].opus
+241:lofi/(FREE) Lo-fi Type Beat - On my way to meet you [pE0_JsIZkZE].opus
+242:lofi/(FREE) Lo-fi Type Beat - On the radio [RLLJ8LIbcmM].opus
+243:lofi/(FREE) Lo-fi Type Beat - One Last Cry [rvwAq8Hk2t0].opus
+244:lofi/(FREE) Lo-fi Type Beat - Only Hope [-ehjtu6d0D8].opus
+245:lofi/(FREE) Lo-fi Type Beat - Only one for me [3vkHgFgto3M].opus
+246:lofi/(FREE) Lo-fi Type Beat - Only to Love You Well [XJL2jVekMmc].opus
+247:lofi/(FREE) Lo-fi Type Beat - Open Arms [hvvFvYiZkAo].opus
+248:lofi/(FREE) Lo-fi Type Beat - Ours [xYvUZUYv3f8].opus
+249:lofi/(FREE) Lo-fi Type Beat - Paradise [aRzm5schF5o].opus
+250:lofi/(FREE) Lo-fi Type Beat - Perfume [CkRfCbI-7-k].opus
+251:lofi/(FREE) Lo-fi Type Beat - Pink Tears [ParFA_gS3BM].opus
+252:lofi/(FREE) Lo-fi Type Beat - Pray [Epi2rsr04Os].opus
+253:lofi/(FREE) Lo-fi Type Beat - Promise you [E0HjPLQ2vuM].opus
+254:lofi/(FREE) Lo-fi Type Beat - Purple Moon [EWOdlsboXYA].opus
+255:lofi/(FREE) Lo-fi Type Beat - Purple Street [N8cEFM6ER1U].opus
+256:lofi/(FREE) Lo-fi Type Beat - Question [aFohydlYlLU].opus
+257:lofi/(FREE) Lo-fi Type Beat - Rain [pdYJtRBPlTw].opus
+258:lofi/(FREE) Lo-fi Type Beat - Relax your mind [B6x7u7hJVUs].opus
+259:lofi/(FREE) Lo-fi Type Beat - Remember me [xo0ZAxXRG8Y].opus
+260:lofi/(FREE) Lo-fi Type Beat - Replay [CcVTHFyEyfk].opus
+261:lofi/(FREE) Lo-fi Type Beat - Reunited [HWqbN7kYYvo].opus
+262:lofi/(FREE) Lo-fi Type Beat - Right [kMnaf99cClo].opus
+263:lofi/(FREE) Lo-fi Type Beat - Rose [fMqeOWTdUHU].opus
+264:lofi/(FREE) Lo-fi Type Beat - Runaway [yW4_gzH62VY].opus
+265:lofi/(FREE) Lo-fi Type Beat - SAD [6aHDVys5wik].opus
+266:lofi/(FREE) Lo-fi Type Beat - Save me [3TBoC9Xnpyw].opus
+267:lofi/(FREE) Lo-fi Type Beat - See you again [bS3V88Eto1U].opus
+268:lofi/(FREE) Lo-fi Type Beat - Serendipity [ihGyuWbl64o].opus
+269:lofi/(FREE) Lo-fi Type Beat - Seven years... [D4zeHFq0gOg].opus
+270:lofi/(FREE) Lo-fi Type Beat - She promise you she's fine [WU3zBf4bvtE].opus
+271:lofi/(FREE) Lo-fi Type Beat - Silent Night [BzS5G0stc4g].opus
+272:lofi/(FREE) Lo-fi Type Beat - Snow Flower [BmaS7g2TMsw].opus
+273:lofi/(FREE) Lo-fi Type Beat - Something [JwJbworewJI].opus
+274:lofi/(FREE) Lo-fi Type Beat - Sometimes I Cry [dP3QKozdTik].opus
+275:lofi/(FREE) Lo-fi Type Beat - Sometimes you will never know [oEN8IHx0UqA].opus
+276:lofi/(FREE) Lo-fi Type Beat - Sorry [rymVMdwmkqc].opus
+277:lofi/(FREE) Lo-fi Type Beat - Spread the love [Q2Y78t5FTD0].opus
+278:lofi/(FREE) Lo-fi Type Beat - Spring Breath [7NYtC6IsePM].opus
+279:lofi/(FREE) Lo-fi Type Beat - Starry night [RQBsjdbx7QU].opus
+280:lofi/(FREE) Lo-fi Type Beat - Stay [hkxxVEULAr0].opus
+281:lofi/(FREE) Lo-fi Type Beat - Still Miss You [tYJ4D1ZRlBY].opus
+282:lofi/(FREE) Lo-fi Type Beat - Street [5YX6f9Chwpg].opus
+283:lofi/(FREE) Lo-fi Type Beat - Stupid love songs [qZI7OVX59Og].opus
+284:lofi/(FREE) Lo-fi Type Beat - Summer Again [qVZ1DU_ZE_4].opus
+285:lofi/(FREE) Lo-fi Type Beat - Summer Love [q1eU6whSRtY].opus
+286:lofi/(FREE) Lo-fi Type Beat - Summer Memories [4wn8mxqDwLg].opus
+287:lofi/(FREE) Lo-fi Type Beat - Summer Night [DfdJBMKacg0].opus
+288:lofi/(FREE) Lo-fi Type Beat - Summer Night pt.2 [fIgfYIde9OE].opus
+289:lofi/(FREE) Lo-fi Type Beat - Summer Times [y7V1Q59QQPc].opus
+290:lofi/(FREE) Lo-fi Type Beat - Sunset [APQJZrCjTJw].opus
+291:lofi/(FREE) Lo-fi Type Beat - Sunshine [1bnQ4iZJnMM].opus
+292:lofi/(FREE) Lo-fi Type Beat - Sweet Sorrow [qnbSvcrIejg].opus
+293:lofi/(FREE) Lo-fi Type Beat - Sweetest Memories [ff_6UGK3Cjw].opus
+294:lofi/(FREE) Lo-fi Type Beat - Swimming [K9rvA1-2jmk].opus
+295:lofi/(FREE) Lo-fi Type Beat - Take my hand [R3PwcnIGMaA].opus
+296:lofi/(FREE) Lo-fi Type Beat - Talkin' to the Moon [kyhNH1DDegk].opus
+297:lofi/(FREE) Lo-fi Type Beat - Tears & rain [fpSTub_tXFQ].opus
+298:lofi/(FREE) Lo-fi Type Beat - Tears in Rain [o9aG_XGydCI].opus
+299:lofi/(FREE) Lo-fi Type Beat - Text Me [bToI9NxWbxI].opus
+300:lofi/(FREE) Lo-fi Type Beat - Thanks for coming to me [bdkRwyw2PRI].opus
+301:lofi/(FREE) Lo-fi Type Beat - The fever of first love [AqOR-7QMIA8].opus
+302:lofi/(FREE) Lo-fi Type Beat - The First Time [Rz4cZLKsszU].opus
+303:lofi/(FREE) Lo-fi Type Beat - The Last Time [-YhB_xVAts0].opus
+304:lofi/(FREE) Lo-fi Type Beat - The magic of our first love [NtSo1LMI0T8].opus
+305:lofi/(FREE) Lo-fi Type Beat - The Scar [dipzDCRZx2s].opus
+306:lofi/(FREE) Lo-fi Type Beat - The Sweetest Love [mPMhKPas_hE].opus
+307:lofi/(FREE) Lo-fi Type Beat - The whole world was pink [HubNPHOveOM].opus
+308:lofi/(FREE) Lo-fi Type Beat - There's no love like the first [3bKkmavH6W0].opus
+309:lofi/(FREE) Lo-fi Type Beat - These days [0tPNGJLBrXM].opus
+310:lofi/(FREE) Lo-fi Type Beat - Thinkin Bout You [lce5DGfGIfg].opus
+311:lofi/(FREE) Lo-fi Type Beat - This Christmas [wZ3kQHweibc].opus
+312:lofi/(FREE) Lo-fi Type Beat - Thousand stars [RS15DYf8fOM].opus
+313:lofi/(FREE) Lo-fi Type Beat - Time [YNBKKisUJmQ].opus
+314:lofi/(FREE) Lo-fi Type Beat - Timeless [d4C0uHUST-w].opus
+315:lofi/(FREE) Lo-fi Type Beat - To Love [oWevhQbgCeM].opus
+316:lofi/(FREE) Lo-fi Type Beat - To you [msI0RARWxGk].opus
+317:lofi/(FREE) Lo-fi Type Beat - Told me you loved me [LwGEvfkWSbc].opus
+318:lofi/(FREE) Lo-fi Type Beat - Tomorrow I Will Date With Yesterday's You [1U-x7cT0FwE].opus
+319:lofi/(FREE) Lo-fi Type Beat - Tonight [CukpfxjHQh8].opus
+320:lofi/(FREE) Lo-fi Type Beat - True Love [iJMjThmMI8Y].opus
+321:lofi/(FREE) Lo-fi Type Beat - Trying to keep your distance from me [G49Z5sj68XM].opus
+322:lofi/(FREE) Lo-fi Type Beat - Twinkling brown eyes [N_Z1CWONMOI].opus
+323:lofi/(FREE) Lo-fi Type Beat - Unchanged Forever [eGhhZ8MpGY8].opus
+324:lofi/(FREE) Lo-fi Type Beat - Untitled Love [1oMbL3ZBZCk].opus
+325:lofi/(FREE) Lo-fi Type Beat - Way Back Home [6TGaUXuEln8].opus
+326:lofi/(FREE) Lo-fi Type Beat - We are strangers again [r6tMTzEiGPI].opus
+327:lofi/(FREE) Lo-fi Type Beat - We could be in Love [ljOTpvlRO74].opus
+328:lofi/(FREE) Lo-fi Type Beat - Wedding Dress [twnIyvOX8MI].opus
+329:lofi/(FREE) Lo-fi Type Beat - Where are you now [IMfkAr_vAGc].opus
+330:lofi/(FREE) Lo-fi Type Beat - Whisper all night [eoYDJAd4ZlY].opus
+331:lofi/(FREE) Lo-fi Type Beat - White Christmas [-IhknguFzLY].opus
+332:lofi/(FREE) Lo-fi Type Beat - Who Knows？ [zLNcWpllD3A].opus
+333:lofi/(FREE) Lo-fi Type Beat - Why [mZ1pUVNqXKo].opus
+334:lofi/(FREE) Lo-fi Type Beat - Winter [yxuDRdnXiY0].opus
+335:lofi/(FREE) Lo-fi Type Beat - Winter Love [9dcC75YVcoY].opus
+336:lofi/(FREE) Lo-fi Type Beat - Wish [hq4QAM6LPug].opus
+337:lofi/(FREE) Lo-fi Type Beat - With you [6wA-Qja-0AE].opus
+338:lofi/(FREE) Lo-fi Type Beat - Yesterday [htqm7uWM7Ek].opus
+339:lofi/(FREE) Lo-fi Type Beat - You’re Always On My Mind [d9AM8V02SMc].opus
+340:lofi/(FREE) Lo-fi Type Beat - You're Beautiful [3s0Um2UMyGE].opus
+341:lofi/(FREE) Lo-fi Type Beat - You’re Doing Fine [G4ZZjyvGi2k].opus
+342:lofi/(FREE) Lo-fi Type Beat - You're My Everything [hZlhuWsEvTE].opus
+343:lofi/(FREE) Lo-fi Type Beat - You're my little flower [1ioK3VRRV9I].opus
+344:lofi/(FREE) Lo-fi Type Beat - You're the Only One [85QSA1VTxeE].opus
+345:lofi/(FREE) Lo-fi Type Beat - Your face [RgDmf2vVnRw].opus
+346:lofi/(FREE) Lo-fi Type Beat - Your Light [x5_zKNhRANM].opus
+347:lofi/(FREE) Lo-fi Type Beat - Your Love [8MeS1WAs4Dw].opus
+348:lofi/(FREE) Lo-fi Type Beat - Your name [ITMROSuBeOg].opus
+349:lofi/(FREE) Lo-fi Type Beat -Your Nose [kwSPSgio2G8].opus
+350:lofi/(FREE) Mac Ayres Lo-fi Type Beat - Faint [X2CERLGDDow].opus
+351:lofi/(FREE) Mac Ayres Lo-fi Type Beat - Thought you said this would never hurt [mdk_CYQ-TBw].opus
+352:lofi/Lofi Hip-Hop Type Beat “Autumn Girl＂ [v1XmIhCHbhw].opus
+353:lofi/Lofi Hip-Hop Type Beat “Believe you can＂ [utNcsVYqPqg].opus
+354:lofi/Lofi Hip-Hop Type Beat “Do you still think of me？＂ [_Q7sT62VENw].opus
+355:lofi/Lofi Hip-Hop Type Beat “End of Summer＂ [frA-jLDG-c0].opus
+356:lofi/Lofi Hip-Hop Type Beat “Fallin’ out＂ [6N7Vyae8wPs].opus
+357:lofi/Lofi Hip-Hop Type Beat “I Can’t Sleep...＂ [BU36gbgzTao].opus
+358:lofi/Lofi Hip-Hop Type Beat “November Sky＂ [W3BZq33KcxU].opus
+359:lofi/Lofi Hip-Hop Type Beat “Only a Dream＂ [sslVjt31ozs].opus
+360:lofi/Lofi Hip-Hop Type Beat “Shape of My heart＂ [tvDLsSsWzpg].opus
+361:lofi/Lofi Hip-Hop Type Beat “Star＂ [RgHvj8pbX6k].opus
+362:lofi/Lofi Hip-Hop Type Beat “Sunflower＂ [ql1iD2QY70Y].opus
+363:lofi/Lofi Hip-Hop Type Beat “Sunny Dawn＂ [AH5H8sQpX7A].opus
+364:lofi/Lofi Hip-Hop Type Beat “Umbrella＂ [U_jfF7gmXHg].opus
+365:lofi/Lofi Hip-Hop Type Beat “When i was sad＂ [H3iLsJT0lGs].opus
+366:lofi/Lofi Hip-Hop Type Beat “Without You＂ [VDB7KevLm3s].opus
 playlist_end
