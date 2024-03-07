@@ -1,15 +1,10 @@
 local plugins = {
+    -- LuaLine
+    {'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' }},
     -- TreeSitter
-    {'nvim-treesitter/nvim-treesitter',
-        config = function ()
-            require('configs.treesitter')
-        end},
+    'nvim-treesitter/nvim-treesitter',
     -- Auto Pairing
-    {'windwp/nvim-autopairs',
-        event = 'InsertEnter',
-        config = function ()
-            require('configs.autopairs')
-        end},
+    {'windwp/nvim-autopairs', event = 'InsertEnter'},
     -- Comment Shortcut
     'tpope/vim-commentary',
     -- Rust Auto Formating
@@ -46,10 +41,7 @@ local plugins = {
             -- LSPs Installation
             'williamboman/mason.nvim',
             'williamboman/mason-lspconfig.nvim',
-        },
-        config = function ()
-            require('configs.autocomplete')
-        end
+        }
     },
 }
 
