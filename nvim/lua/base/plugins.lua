@@ -17,30 +17,32 @@ local plugins = {
         end
     },
     -- ColorScheme
-    {'rose-pine/neovim',
-        as = 'rose-pine',
-        config = function()
-            require('rose-pine').setup({
-                disable_background = true
-            })
-        end
-    },
-    -- LSP Configs
-    {'VonHeikemen/lsp-zero.nvim',
+    'rose-pine/neovim',
+    'folke/tokyonight.nvim',
+    'LunarVim/horizon.nvim',
+    'catppuccin/nvim',
+    'neanias/everforest-nvim',
+    'cocopon/iceberg.vim',
+    'rebelot/kanagawa.nvim',
+    'sainnhe/gruvbox-material',
+    -- LSP
+    {'neovim/nvim-lspconfig',
+        event = { "BufReadPre", "BufNewFile" },
         dependencies = {
-            'neovim/nvim-lspconfig',
-            -- Completion Engine
-            'hrsh7th/nvim-cmp',
             'hrsh7th/cmp-nvim-lsp',
+        }
+    },
+    -- Mason
+    {'williamboman/mason.nvim', dependencies = { 'williamboman/mason-lspconfig.nvim',}},
+    -- Completion
+    {'hrsh7th/nvim-cmp',
+        event = "InsertEnter",
+        dependencies = {
             'hrsh7th/cmp-path',
             'hrsh7th/cmp-cmdline',
             'saadparwaiz1/cmp_luasnip',
-            -- Snippets
             'L3MON4D3/LuaSnip',
             'rafamadriz/friendly-snippets',
-            -- LSPs Installation
-            'williamboman/mason.nvim',
-            'williamboman/mason-lspconfig.nvim',
         }
     },
 }
