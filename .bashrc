@@ -4,7 +4,9 @@ export PATH="$PATH:$HOME/.cargo/bin"
 # bash prompt
 source /usr/share/git/completion/git-prompt.sh
 
-PROMPT_COMMAND='PS1_CMD1=$(__git_ps1 " (%s)")'; PS1='\w\[\e[38;5;124;1m\]${PS1_CMD1}\[\e[0m\] \[\e[38;5;220m\]>\[\e[0m\] '
+GIT_BRANCH='$(__git_ps1 " (%s)")'
+export GIT_PS1_SHOWDIRTYSTATE=1
+PS1="\w\[\e[38;5;124;1m\]${GIT_BRANCH} \[\e[0m\]\[\e[38;5;220m\]> \[\e[0m\]" 
 
 HISTSIZE=10000
 HISTFILESIZE=2000000
