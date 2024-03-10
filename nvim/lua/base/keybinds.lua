@@ -19,5 +19,3 @@ bind('x', '<Tab>', [[>gv]])
 bind('x', '<S-Tab>', [[<gv]])
 -- Select All
 bind('n', '<C-a>', 'ggVG')
--- Toggle Focus
-bind('n', '<Leader>f', ':Twilight<CR> <BAR> :ZenMode<CR>')

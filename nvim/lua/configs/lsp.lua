@@ -15,6 +15,7 @@ lspconfig.lua_ls.setup {}
 lspconfig.rust_analyzer.setup {}
 lspconfig.pyright.setup {}
 lspconfig.tsserver.setup {}
+lspconfig.cssls.setup {}
 
 for _, group in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
   vim.api.nvim_set_hl(0, group, {})
