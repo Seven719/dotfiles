@@ -1,5 +1,4 @@
 local plugins = {
-    'xiyaowong/transparent.nvim',
     -- LuaLine
     {'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' }},
     -- TreeSitter
@@ -19,13 +18,8 @@ local plugins = {
     },
     -- ColorScheme
     'rose-pine/neovim',
-    'folke/tokyonight.nvim',
-    'LunarVim/horizon.nvim',
-    'catppuccin/nvim',
     'neanias/everforest-nvim',
-    'cocopon/iceberg.vim',
     'rebelot/kanagawa.nvim',
-    'sainnhe/gruvbox-material',
     -- LSP
     {'neovim/nvim-lspconfig',
         event = { "BufReadPre", "BufNewFile" },
