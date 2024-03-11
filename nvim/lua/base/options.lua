@@ -34,10 +34,6 @@ vim.opt.smartcase = true
 
 vim.g.everforest_background = 'hard'
 vim.g.everforest_better_performance = 1
-require('rose-pine').setup({
-    disable_background = true
-})
-
 
 require('lualine').setup {
     options = {
@@ -69,4 +65,4 @@ require('lualine').setup {
 }
 
 vim.cmd('syntax off')
-vim.cmd('colorscheme rose-pine')
+vim.cmd('colorscheme kanagawa')

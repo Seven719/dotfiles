@@ -1,4 +1,5 @@
 local plugins = {
+    'xiyaowong/transparent.nvim',
     -- LuaLine
     {'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' }},
     -- TreeSitter
