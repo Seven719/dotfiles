@@ -9,7 +9,6 @@ require('rose-pine').setup({
 
 require("kanagawa").setup({
 	transparent = true,
-	theme = "default",
 })
 
 require('lualine').setup {
@@ -42,4 +41,4 @@ require('lualine').setup {
 }
 
 vim.cmd('syntax off')
-vim.cmd('colorscheme everforest')
+vim.cmd('colorscheme kanagawa')
