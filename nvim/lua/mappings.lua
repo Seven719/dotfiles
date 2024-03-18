@@ -22,3 +22,5 @@ map('x', '<Tab>', [[>gv]])
 map('x', '<S-Tab>', [[<gv]])
 -- Select All
 map('n', '<C-a>', 'ggVG')
+-- Esc for NTERM mode
+map('t', '<Esc>', '<C-\\><C-n>')
