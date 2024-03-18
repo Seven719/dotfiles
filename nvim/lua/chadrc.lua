@@ -7,6 +7,7 @@ M.ui = {
 
     statusline = {
         order = { "mode", "file", "git", "%=", "lsp", "cwd"},
+        theme = "vscode_colored",
     },
 }
 
