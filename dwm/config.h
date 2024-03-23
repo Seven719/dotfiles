@@ -11,22 +11,6 @@ static const char *mpcprev[] = { "mpc", "prev", NULL };
 static const char *mpcvolup[] = { "mpc", "volume", "+2", NULL };
 static const char *mpcvoldown[] = { "mpc", "volume", "-2", NULL };
 
-
-// Toggle Fullscreen
-static void toggleFScreen(const Arg *arg)
-{
-	if(!selmon->sel)
-		return;
-	if(selmon->sel->isfullscreen)
-	{
-		setfullscreen(selmon->sel, 0);
-	}
-	else
-	{
-		setfullscreen(selmon->sel, 1);
-	}
-}
-
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int gappx     = 5;        /* gaps between windows */
@@ -125,7 +109,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
 	{ MODKEY,                       XK_z, 	   zoom,           {0} },
-	{ MODKEY,                       XK_f, 	   toggleFScreen,  {0} },
+	{ MODKEY,                       XK_f, 	   togglefullscreen,  {0} },
 	{ Mod1Mask,                     XK_Tab,    view,           {0} },
 	{ MODKEY,			            XK_w,      killclient,     {0} },
 	{ MODKEY|ShiftMask,             XK_t,      setlayout,      {.v = &layouts[0]} },
