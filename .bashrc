@@ -28,6 +28,7 @@ bind 'set show-all-if-ambiguous on'
 stty werase undef
 bind '\C-w:unix-filename-rubout'
 
+alias ns='tmux new-session -s'
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias grep='grep --color=auto'
