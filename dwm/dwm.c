@@ -1127,7 +1127,6 @@ manage(Window w, XWindowAttributes *wa)
     arrange(c->mon);
     XMapWindow(dpy, c->win);
     focus(NULL);
-    setfullscreen(c, 1);
 }
 
 void
