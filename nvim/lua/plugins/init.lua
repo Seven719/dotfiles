@@ -44,6 +44,7 @@ return {
                 "vimdoc",
                 "html",
                 "css",
+                "javascript",
                 "typescript",
                 "c",
                 "c_sharp",
