@@ -22,5 +22,7 @@ nitrogen --restore &
 picom &
 # Flameshot
 flameshot &
+# Redshift
+redshift &
 # DWM
 exec dwm
