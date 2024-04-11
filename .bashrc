@@ -29,6 +29,7 @@ stty werase undef
 bind '\C-w:unix-filename-rubout'
 
 alias gs='git status'
+alias sudo='doas'
 alias gl='git log'
 alias ns='tmux new-session -s'
 alias ls='ls --color=auto'
@@ -42,4 +43,5 @@ alias connect='bluetoothctl connect 74:45:CE:97:88:63'
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 export PATH=/home/iulian/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/iulian/.cargo/bin:/home/iulian/.cargo/bin
+export WEBKIT_DISABLE_DMABUF_RENDERER=1
 source /usr/share/nvm/init-nvm.sh
