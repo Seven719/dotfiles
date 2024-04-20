@@ -27,6 +27,10 @@ bind 'set show-all-if-ambiguous on'
 # Rebind Ctrl + W to delete only last word
 stty werase undef
 bind '\C-w:unix-filename-rubout'
+# Remap Alt + B to Control + B
+bind '"\C-b": backward-word'
+# Remap Alt + F to Control + F
+bind '"\C-f": forward-word'
 
 alias gs='git status'
 alias sudo='doas'
