@@ -1,7 +1,5 @@
 require "nvchad.options"
 
--- Speed Up loading Lua Modules
-vim.loader.enable()
 -- Persistent Undo
 vim.opt.undofile = true
 -- Make neovim respond faster
@@ -13,7 +11,6 @@ vim.opt.termguicolors = true
 vim.opt.background = "dark"
 
 -- Mouse
-vim.opt.mouse = ""
 vim.opt.guicursor = ""
 
 -- Side Bar
