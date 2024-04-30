@@ -1,5 +1,8 @@
 # Ignore everything in .config/ directory
 *
+mpd/mpd.db
+mpd/mpdstate
+mpd/playlists
 
 # Except the following files and directories
 !nvim/
