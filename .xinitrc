@@ -2,8 +2,8 @@
 
 # Battery Status
 battery(){
-    battery1=$(acpi -b | sed -n '1p' | grep -P -o '[0-9]+(?=%)')
-    battery2=$(acpi -b | sed -n '2p' | grep -P -o '[0-9]+(?=%)')
+    battery1=$(cat /sys/class/power_supply/BAT0/capacity)
+    battery2=$(cat /sys/class/power_supply/BAT1/capacity)
     
     echo -e "$battery1% $battery2%"
 }
