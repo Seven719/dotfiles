@@ -1,5 +1,13 @@
 #! /bin/sh
 
+# Battery Status
+battery(){
+    battery1=$(acpi -b | sed -n '1p' | grep -P -o '[0-9]+(?=%)')
+    battery2=$(acpi -b | sed -n '2p' | grep -P -o '[0-9]+(?=%)')
+    
+    echo -e "$battery1% $battery2%"
+}
+
 # DATE and RAM in Status Bar
 dte(){
     dte="$(date +'%A, %B %d - %H:%M')"
@@ -12,7 +20,7 @@ mem(){
 }
 
 while true;do
-    xsetroot -name "$(mem) | $(dte)"
+    xsetroot -name "$(battery) | $(mem) | $(dte)"
     sleep 10s
 done &
 
@@ -24,5 +32,7 @@ picom &
 flameshot &
 # Redshift
 redshift &
+# Monitor Setup
+xrandr --output HDMI-2 --primary --mode 1920x1080 --rate 144 --output eDP-1 --off
 # DWM
 exec dwm
