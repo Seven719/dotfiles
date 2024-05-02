@@ -96,7 +96,7 @@ static const Key keys[] = {
     { 0, 				            0x1008FF17,spawn,          {.v = mpcnext} },
 	{ 0,   				            0x1008FF14,spawn,          {.v = mpctoggle} },
 	{ 0,   				            0x1008FF12,spawn,          {.v = mpctoggle} },
-	{ ControlMask|ShiftMask,        XK_f,      spawn,          {.v = flameshotcmd } },
+    { 0,                            XK_Print,  spawn,          {.v = flameshotcmd } },
 	{ MODKEY,                       XK_space,  spawn,          {.v = dmenucmd } },
 	{ MODKEY,	             	    XK_Return, spawn,          {.v = termcmd} },
 	{ MODKEY,                       XK_t,      togglebar,      {0} },
