@@ -1,8 +1,8 @@
 local M = {}
 
 M.ui = {
-	theme = "solarized_osaka",
-    transparency = true,
+	theme = "rosepine",
+    -- transparency = true,
 
     statusline = {
         order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor" },
