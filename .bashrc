@@ -43,3 +43,4 @@ export WEBKIT_DISABLE_DMABUF_RENDERER=1
 source /usr/share/nvm/init-nvm.sh
 export PATH="$PATH:$HOME/.cargo/bin"
 source /usr/share/git/completion/git-prompt.sh
+export GOPATH=/usr/share/go
