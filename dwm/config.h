@@ -90,6 +90,7 @@ static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
+    { 0,                      0x1008FFB2, spawn,    SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle") },
 	{ 0, 			                0x1008FF13,spawn,          {.v = mpcvolup} },
     { 0, 				            0x1008FF11,spawn,          {.v = mpcvoldown} },
 	{ 0, 				            0x1008FF16,spawn,          {.v = mpcprev} },
