@@ -14,8 +14,8 @@ shopt -s cdspell
 # Save all lines in the history file immediately
 shopt -s histappend
 # Scroll through past commands
-bind '"\C-k": history-search-backward'
-bind '"\C-j": history-search-forward'
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
 # Case unsensitive
 bind 'set completion-ignore-case on'
 # Autocomplete more like zsh
