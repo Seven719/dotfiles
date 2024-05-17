@@ -6,6 +6,7 @@ export HISTFILE=~/.bash_history
 export SAVEHIST=$HISTSIZE
 export HISTCONTROL=ignoreboth:erasedups
 shopt -s histappend
+export PROMPT_COMMAND="history -a; history -n"
 
 GIT_BRANCH='$(__git_ps1 " (%s)")'
 PS1="\w\[\e[38;5;124;1m\]${GIT_BRANCH} \[\e[0m\]\[\e[38;5;220m\]> \[\e[0m\]" 
