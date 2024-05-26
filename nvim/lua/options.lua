@@ -29,3 +29,5 @@ vim.opt.softtabstop = 4
 vim.opt.fillchars = { eob = " " }
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+vim.opt.scrolloff = 999
