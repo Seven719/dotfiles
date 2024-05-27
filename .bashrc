@@ -46,9 +46,9 @@ alias connect='bluetoothctl connect 74:45:CE:97:88:63'
 
 # PATHS
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-export PATH=/home/iulian/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/iulian/.cargo/bin:/home/iulian/.cargo/bin
+export PATH="$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.cargo/bin:$HOME/.cargo/bin"
 export WEBKIT_DISABLE_DMABUF_RENDERER=1
 source /usr/share/nvm/init-nvm.sh
 export PATH="$PATH:$HOME/.cargo/bin"
 source /usr/share/git/completion/git-prompt.sh
-export GOPATH=/usr/share/go
+export GOPATH=$HOME/.go
