@@ -7,12 +7,12 @@ nvim/lazy-lock.json
 
 # Except the following files and directories
 !nvim/
+!picom/
 !i3/
 !i3status/
 !st/
 !mpd/
 !ncmpcpp/
-!picom/
 !tmux/
 !redshift/
 !wallpapers/
