@@ -2,7 +2,7 @@ local M = {}
 
 M.ui = {
 	theme = "rosepine",
-    -- transparency = true,
+    transparency = true,
 
     statusline = {
         order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor" },
