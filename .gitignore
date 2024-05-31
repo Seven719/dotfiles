@@ -7,7 +7,8 @@ nvim/lazy-lock.json
 
 # Except the following files and directories
 !nvim/
-!dwm/
+!i3/
+!i3status/
 !st/
 !mpd/
 !ncmpcpp/
