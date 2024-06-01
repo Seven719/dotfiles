@@ -8,5 +8,7 @@ picom &
 flameshot &
 # Redshift
 redshift &
+# nice tiling for i3
+autotiling &
 # i3 window manager
 exec i3
