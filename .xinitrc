@@ -8,7 +8,7 @@ picom &
 flameshot &
 # Redshift
 redshift &
-# nice tiling for i3
-autotiling &
+# Monitor
+xrandr --output HDMI-2 --mode 1920x1080 --rate 120 --above eDP-1 &
 # i3 window manager
 exec i3
