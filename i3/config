@@ -8,11 +8,8 @@ bindsym Print exec --no-startup-id flameshot gui
 
 set $mod Mod4
 
-# default_border none
-
 # Font for window titles. Will also be used by the bar unless a different font
 font pango:JetBrains Mono Regular 10
-
 
 # Start XDG autostart .desktop files using dex. See also
 exec --no-startup-id dex --autostart --environment i3
@@ -143,8 +140,4 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         tray_output none
-        position top
-        colors {
-            background #323232
-        }
 }
