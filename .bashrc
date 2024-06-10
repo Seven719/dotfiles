@@ -1,5 +1,4 @@
 [[ $- != *i* ]] && return
-export GIT_PS1_SHOWDIRTYSTATE=1
 # History
 export HISTSIZE=5000
 export HISTFILE=~/.bash_history
@@ -8,8 +7,7 @@ export HISTCONTROL=ignoreboth:erasedups
 shopt -s histappend
 export PROMPT_COMMAND="history -a; history -n"
 
-GIT_BRANCH='$(__git_ps1 " (%s)")'
-PS1="\w\[\e[38;5;124;1m\]${GIT_BRANCH} \[\e[0m\]\[\e[38;5;220m\]> \[\e[0m\]" 
+PROMPT_COMMAND='PS1_CMD1=$(__git_ps1 " %s")'; PS1='\w\[\e[38;5;124;1m\]${PS1_CMD1}\n\[\e[0;38;5;220m\]> \[\e[0m\]'
 
 # Enable emacs key bindings
 set -o emacs
