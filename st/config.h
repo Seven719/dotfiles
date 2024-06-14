@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:Regular:pixelsize=16:antialias=true:autohint=true";
+static char *font = "JetBrains Mono Nerd Font:size=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 float alpha = 0.95;
@@ -115,7 +115,7 @@ static const char *colorname[] = {
     "#63c4b5", /* cyan    */
     "#d4d5d5", /* white   */
 
-    [255] = 0, 
+    [255] = 0,
     "#FBF9FF", /* cursor */
     "#121213",
     /* "#191919", /1* background *1/ */
