@@ -22,7 +22,7 @@ map('x', 'J', ":move '>+1<CR>gv=gv")
 -- Force Quit File
 map('n', '<C-q>', '<Esc>:q!<CR>')
 -- Deselect Searched Items
-map('n', '<C-C>', ':set hlsearch!<CR>')
+map('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- Indentation
 map('x', '<Tab>', [[>gv]])
 map('x', '<S-Tab>', [[<gv]])
