@@ -30,4 +30,4 @@ vim.opt.fillchars = { eob = " " }
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
-vim.opt.scrolloff = 999
+vim.opt.scrolloff = 10
