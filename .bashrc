@@ -30,8 +30,9 @@ stty werase undef
 bind '\C-w:unix-filename-rubout'
 
 alias gs='git status'
-alias sudo='doas'
 alias gl='git log'
+alias gd='git diff'
+alias sudo='doas'
 alias ns='tmux new-session -s'
 alias ls='ls --color=auto'
 alias la='ls -a'
