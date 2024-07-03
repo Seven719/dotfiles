@@ -13,7 +13,7 @@ return {
         "catppuccin/nvim",
         priority = 1000,
         config = function()
-            vim.cmd("colorscheme catppuccin-mocha")
+            -- vim.cmd("colorscheme catppuccin-mocha")
             require("catppuccin").setup({
                 no_italic = true,
             })
@@ -36,7 +36,7 @@ return {
         "EdenEast/nightfox.nvim",
         priority = 1000,
         config = function()
-            -- vim.cmd("colorscheme nightfox")
+            vim.cmd("colorscheme nightfox")
         end
     }
 }
