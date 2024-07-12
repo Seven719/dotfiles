@@ -1,25 +1,5 @@
 return {
     {
-        "folke/tokyonight.nvim",
-        priority = 1000,
-        config = function()
-            -- vim.cmd("colorscheme tokyonight-night")
-            require("catppuccin").setup({
-                comments = { italic = false },
-            })
-        end
-    },
-    {
-        "catppuccin/nvim",
-        priority = 1000,
-        config = function()
-            -- vim.cmd("colorscheme catppuccin-mocha")
-            require("catppuccin").setup({
-                no_italic = true,
-            })
-        end
-    },
-    {
         "rose-pine/neovim",
 		priority = 1000,
         config = function()
@@ -29,14 +9,14 @@ return {
                     transparency = true,
                 },
             })
-            -- vim.cmd("colorscheme rose-pine")
+            vim.cmd("colorscheme rose-pine-moon")
         end
     },
     {
         "EdenEast/nightfox.nvim",
         priority = 1000,
         config = function()
-            vim.cmd("colorscheme nightfox")
+            -- vim.cmd("colorscheme nightfox")
         end
     }
 }

@@ -8,6 +8,8 @@ map('n', '<S-Tab>', '<Cmd>BufferPrevious<CR>')
 map('n', '<Tab>', '<Cmd>BufferNext<CR>')
 map('n', '<C-x>', '<Cmd>BufferClose<CR>', { noremap = true, silent = true })
 
+map("n", "<space>e", vim.diagnostic.open_float)
+
 -- Shift + K/J
 map('n', 'K', ':m .-2<CR>==')
 map('n', 'J', ':m .+1<CR>==')
