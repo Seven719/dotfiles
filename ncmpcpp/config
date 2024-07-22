@@ -1,6 +1,6 @@
 mpd_host = localhost
 mpd_port = "6600"
-mpd_connection_timeout = "5"  
+mpd_connection_timeout = "5"
 mpd_crossfade_time = "2"
 mpd_music_dir = "~/media/music"
 lyrics_directory  = "~/.config/ncmpcpp/lyrics"
@@ -38,6 +38,7 @@ display_bitrate = "yes"
 external_editor = "nvim"
 main_window_color = "default"
 startup_screen = "playlist"
+show_hidden_files_in_local_browser = no
 
 # PROGRESS BAR
 # ---
