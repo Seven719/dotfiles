@@ -38,7 +38,7 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias grep='grep --color=auto'
 alias music="ncmpcpp"
-alias download-audio="yt-dlp --extract-audio --add-metadata --no-playlist"
+alias download-audio="yt-dlp --extract-audio --add-metadata --no-playlist --embed-thumbnail"
 alias download-video="yt-dlp -f 'bestvideo[height<=1080]+bestaudio/best[height<=1080]'"
 alias img='gpicview'
 alias ff='fastfetch'
