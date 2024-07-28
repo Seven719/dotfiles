@@ -6,9 +6,7 @@ bindsym XF86AudioMute exec --no-startup-id mpc toggle
 bindsym XF86AudioStop exec --no-startup-id mpc stop
 bindsym Print exec --no-startup-id flameshot gui
 
-assign [class="floorp"] 1
-assign [class="discord"] 3
-assign [class="vesktop"] 3
+assign [class="firefox"] 1
 assign [class="obsidian"] 4
 
 # Set mod key to super key
@@ -149,7 +147,4 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         tray_output none
-        colors {
-                urgent_workspace   #333333 #222222 #888888
-        }
 }
