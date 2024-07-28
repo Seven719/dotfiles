@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Restore Wallpaper
-nitrogen --restore &
-# Compositor For Transparency
-picom &
 # Flameshot
 flameshot &
 # Redshift
