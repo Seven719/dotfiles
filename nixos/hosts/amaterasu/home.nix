@@ -26,6 +26,7 @@
             fonts = [ "JetBrainsMono" ];
         })
         starship
+        keepassxc
     ];
 
     gtk = {
@@ -35,8 +36,8 @@
             package = pkgs.everforest-gtk-theme;
         };
         iconTheme = {
-            name = "Everforest-Dark";
-            package = pkgs.everforest-gtk-theme;
+            name = "Adwaita";
+            package = pkgs.adwaita-icon-theme;
         };
     };
 

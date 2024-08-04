@@ -14,9 +14,9 @@
     # Bootloader.
     boot.loader.grub = {
         enable = true;
-        device = "/dev/vda";
+        device = "nodev";
         useOSProber = true;
-        timeoutStyle = "hidden";
+        efiSupport = true;
     };
 
     networking.hostName = "amaterasu"; # Define your hostname.
@@ -227,6 +227,15 @@
         user = "iulian";
         network.listenAddress = "any";
         startWhenNeeded = true;
+    };
+
+    services.blueman.enable = true;
+    hardware.bluetooth = {
+        enable = true;
+        powerOnBoot = true;
+        settings.General = {
+            Enable = "Source,Sink,Media,Socket";
+        };
     };
 
     systemd.services.mpd.environment = {
