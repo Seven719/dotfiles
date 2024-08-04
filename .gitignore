@@ -1,0 +1,20 @@
+*
+mpd/mpd.db
+mpd/mpdstate
+mpd/playlists
+nvim/lazy-lock.json
+
+# Except the following files and directories
+!nvim/
+!nixos/
+!i3/
+!i3status/
+!st/
+!mpd/
+!ncmpcpp/
+!tmux/
+!redshift/
+!wallpapers/
+!screenshot1.png
+!screenshot2.png
+!screenshot3.png
