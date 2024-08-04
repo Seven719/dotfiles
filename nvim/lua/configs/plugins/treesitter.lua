@@ -20,6 +20,7 @@ return {
                 "rust",
                 "python",
                 "go",
+                "nix",
             },
 
             highlight = {
