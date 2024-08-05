@@ -145,7 +145,6 @@
         dconf
         st
         tmux
-        spice-vdagent
         noto-fonts
         mpd
         mpc-cli
@@ -243,8 +242,6 @@
     };
 
     # List services that you want to enable:
-    services.spice-vdagentd.enable = true;
-
     # Enable the OpenSSH daemon.
     services.openssh.enable = true;
 
