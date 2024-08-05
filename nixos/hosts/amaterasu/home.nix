@@ -53,6 +53,8 @@
         swappy
         slurp
         grim
+        gimp
+        inkscape
     ];
 
     gtk = {
@@ -64,6 +66,9 @@
         iconTheme = {
             name = "Adwaita";
             package = pkgs.adwaita-icon-theme;
+        };
+        cursorTheme = {
+            name = "Adwaita";
         };
     };
 
