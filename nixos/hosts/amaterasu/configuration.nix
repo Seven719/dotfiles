@@ -1,7 +1,3 @@
-# Edit this configuration file to define what should be installed on
-# your system.  Help is available in the configuration.nix(5) man page
-# and in the NixOS manual (accessible by running ‘nixos-help’).
-
 { config, pkgs, inputs, ... }:
 
 {
@@ -11,7 +7,6 @@
         inputs.home-manager.nixosModules.default
     ];
 
-    # Bootloader.
     boot.loader.grub = {
         enable = true;
         device = "nodev";
@@ -19,14 +14,12 @@
         efiSupport = true;
     };
 
-    networking.hostName = "amaterasu"; # Define your hostname.
+    networking.hostName = "amaterasu";
 
     nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-    # Enable networking
     networking.networkmanager.enable = true;
 
-    # Set your time zone.
     time.timeZone = "Europe/London";
 
     # Select internationalisation properties.
@@ -46,44 +39,14 @@
         LANGUAGE = "en_GB:en";
     };
 
-    # Configure keymap in X11
-    services.xserver = {
-        enable = true;
-
-        desktopManager = {
-            xterm.enable = false;
-        };
-
-        displayManager.lightdm = {
-            enable = true;
-        };
-
-        windowManager.i3 = {
-            enable = true;
-            extraPackages = with pkgs; [
-                dmenu
-                i3status
-            ];
-        };
-
-        xkb.layout = "us";
-        xkb.variant = "";
-    };
-
     environment.variables = {
-        # NIXOS_OZONE_WL = "1";
-        TERMINAL = "st";
+        MOZ_ENABLE_WAYLAND = "1";
         LC_ALL = "en_GB.UTF-8";
-    };
-
-    services.displayManager = {
-        defaultSession = "none+i3";
     };
 
     # Enable CUPS to print documents.
     services.printing.enable = true;
 
-    # Enable sound with pipewire.
     hardware.pulseaudio.enable = false;
     security.rtkit.enable = true;
     services.pipewire = {
@@ -93,7 +56,6 @@
         pulse.enable = true;
     };
 
-    # Define a user account. Don't forget to set a password with ‘passwd’.
     users.users.iulian = {
         isNormalUser = true;
         description = "iulian";
@@ -117,33 +79,18 @@
         };
     };
 
-    # Install firefox.
     programs.firefox.enable = true;
 
-    # Allow unfree packages
     nixpkgs.config.allowUnfree = true;
 
-    nixpkgs.overlays = [
-        (final: prev: {
-            st = prev.st.overrideAttrs (old: {
-                src = /home/iulian/.config/st;
-                postPatch = ''
-                cp ${/home/iulian/.config/st/config.h} config.h
-                '';
-            });
-        })
-    ];
-
-    # List packages installed in system profile. To search, run:
-    # $ nix search wget
     environment.systemPackages = with pkgs; [
         wget
         neovim
         git
         btop
         fastfetch
+        ripgrep
         dconf
-        st
         tmux
         noto-fonts
         mpd
@@ -155,62 +102,61 @@
         obsidian
         unzip
         zip
-        flameshot
-        xclip
         pavucontrol
-        pcmanfm
+        obsidian
         virt-manager
         libvirt
-        # HYPRLAND
-        # greetd.tuigreet
-        # foot
-        # swayrbar
-        # bemenu
-        # dunst
-        # libnotify
-        # wl-clipboard
-        # thunar
+        greetd.tuigreet
+        i3status
+        wmenu
+        dunst
+        libnotify
+        wl-clipboard
+        autotiling
+        xdg-desktop-portal-wlr
+        xdg-desktop-portal
+        #SCREENSHOTS
+        swappy
+        slurp
+        grim
     ];
-    #
-    # xdg.portal = {
-    #     enable = true;
-    #     extraPortals = [
-    #         pkgs.xdg-desktop-portal-gtk
-    #     ];
-    # };
-    #
-    # programs.hyprland = {
-    #     enable = true;
-    #     xwayland.enable = true;
-    # };
-    #
-    # hardware = {
-    #     graphics.enable = true;
-    #     nvidia.modesetting.enable = true;
-    # };
-    #
-    # services.greetd = {
-    #     enable = true;
-    #     settings = {
-    #         default_session = {
-    #             command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --greeting 'Amaterasu Log In' --cmd Hyprland";
-    #             user = "iulian";
-    #         };
-    #     };
-    # };
+
+    xdg.portal = {
+        enable = true;
+        wlr.enable = true;
+        extraPortals = with pkgs; [
+            xdg-desktop-portal-gtk
+            xdg-desktop-portal-wlr
+        ];
+    };
+
+    services.dbus.enable = true;
+
+    programs.sway = {
+        enable = true;
+        xwayland.enable = true;
+        wrapperFeatures.gtk = true;
+    };
+
+    hardware = {
+        graphics.enable = true;
+    };
+
+    services.greetd = {
+        enable = true;
+        settings = {
+            default_session = {
+                command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --greeting 'Amaterasu Log In' --cmd sway";
+                user = "iulian";
+            };
+        };
+    };
 
     services.cron = {
         enable = true;
         systemCronJobs = [
             "40 20 * * * /run/current-system/sw/bin/shutdown -h now"
         ];
-    };
-
-    location.provider = "manual";
-    location.latitude = 51.65;
-    location.longitude = 0.42;
-    services.redshift = {
-        enable = true;
     };
 
     services.mpd = {
@@ -241,13 +187,10 @@
         XDG_RUNTIME_DIR = "/run/user/1000";
     };
 
-    # List services that you want to enable:
-    # Enable the OpenSSH daemon.
     services.openssh.enable = true;
 
     virtualisation.libvirtd.enable = true;
     programs.virt-manager.enable = true;
-
 
     system.stateVersion = "24.05";
 }

@@ -12,6 +12,8 @@
         starship = (import ./starship.nix { inherit config pkgs; });
         btop = (import ./btop.nix { inherit config pkgs; });
         git = (import ./git.nix { inherit config pkgs; });
+        foot = (import ./foot.nix { inherit config pkgs; });
+        yazi = (import ./yazi.nix { inherit config pkgs; });
     };
 
     services.syncthing = {
@@ -27,6 +29,9 @@
         })
         starship
         keepassxc
+        foot
+        yazi
+        bat
     ];
 
     gtk = {
@@ -49,6 +54,14 @@
         VISUAL = "nvim";
         WEBKIT_DISABLE_DMABUF_RENDERER = "1";
         GOPATH = "$HOME/.go";
+    };
+
+
+    services.gammastep = {
+        enable = true;
+        provider = "manual";
+        latitude = 51.65;
+        longitude = 0.42;
     };
 
     programs.home-manager.enable = true;
