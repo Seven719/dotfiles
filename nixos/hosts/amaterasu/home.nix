@@ -7,20 +7,21 @@
     nixpkgs.config.allowUnfree = true;
 
     programs = {
-        neovim = (import ./neovim.nix { inherit config pkgs; });
-        bash = (import ./bash.nix { inherit config pkgs; });
-        starship = (import ./starship.nix { inherit config pkgs; });
-        btop = (import ./btop.nix { inherit config pkgs; });
-        git = (import ./git.nix { inherit config pkgs; });
-        foot = (import ./foot.nix { inherit config pkgs; });
-        yazi = (import ./yazi.nix { inherit config pkgs; });
+        neovim =    (import ./programs/user/neovim.nix { inherit config pkgs; });
+        bash =      (import ./programs/user/bash.nix { inherit config pkgs; });
+        starship =  (import ./programs/user/starship.nix { inherit config pkgs; });
+        btop =      (import ./programs/user/btop.nix { inherit config pkgs; });
+        git =       (import ./programs/user/git.nix { inherit config pkgs; });
+        foot =      (import ./programs/user/foot.nix { inherit config pkgs; });
+        yazi =      (import ./programs/user/yazi.nix { inherit config pkgs; });
+        firefox =   (import ./programs/user/firefox.nix { inherit config pkgs; });
     };
 
-    services.syncthing = {
-        enable = true;
+    services = {
+        syncthing = (import ./services/user/syncthing.nix { inherit config pkgs; });
+        gammastep = (import ./services/user/gammastep.nix { inherit config pkgs; });
+        mpd =       (import ./services/user/mpd.nix { inherit config pkgs; });
     };
-
-    home.stateVersion = "24.05";
 
     fonts.fontconfig.enable = true;
     home.packages = with pkgs; [
@@ -32,6 +33,26 @@
         foot
         yazi
         bat
+        mpd
+        mpc-cli
+        ncmpcpp
+        ripgrep
+        btop
+        fastfetch
+        tmux
+        yt-dlp
+        vlc
+        pavucontrol
+        obsidian
+        i3status
+        wmenu
+        dunst
+        libnotify
+        wl-clipboard
+        autotiling
+        swappy
+        slurp
+        grim
     ];
 
     gtk = {
@@ -56,13 +77,7 @@
         GOPATH = "$HOME/.go";
     };
 
-
-    services.gammastep = {
-        enable = true;
-        provider = "manual";
-        latitude = 51.65;
-        longitude = 0.42;
-    };
-
     programs.home-manager.enable = true;
+
+    home.stateVersion = "24.05";
 }
