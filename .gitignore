@@ -7,7 +7,7 @@ nvim/lazy-lock.json
 # Except the following files and directories
 !nvim/
 !nixos/
-!i3/
+!sway/
 !i3status/
 !st/
 !mpd/
