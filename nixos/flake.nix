@@ -11,14 +11,17 @@
   	};
 
 	outputs = { self, nixpkgs, ... }@inputs: {
-	    nixosConfigurations = {
-			amaterasu = nixpkgs.lib.nixosSystem {
-				specialArgs = {inherit inputs;};
-				modules = [
-                    ./hosts/amaterasu/configuration.nix
-                    inputs.home-manager.nixosModules.default
-				];
-			};
+	    nixosConfigurations.amaterasu = nixpkgs.lib.nixosSystem {
+            specialArgs = {
+                inherit inputs;
+                meta = { hostname = "amaterasu"; };
+            };
+            modules = [
+                ./hosts/amaterasu/hardware-configuration.nix
+
+                ./configuration.nix
+                inputs.home-manager.nixosModules.default
+            ];
 		};
 	};
 }

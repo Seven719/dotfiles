@@ -7,14 +7,14 @@
     nixpkgs.config.allowUnfree = true;
 
     programs = {
-        neovim =    (import ./programs/user/neovim.nix { inherit config pkgs; });
-        bash =      (import ./programs/user/bash.nix { inherit config pkgs; });
-        starship =  (import ./programs/user/starship.nix { inherit config pkgs; });
-        btop =      (import ./programs/user/btop.nix { inherit config pkgs; });
-        git =       (import ./programs/user/git.nix { inherit config pkgs; });
-        foot =      (import ./programs/user/foot.nix { inherit config pkgs; });
-        yazi =      (import ./programs/user/yazi.nix { inherit config pkgs; });
-        firefox =   (import ./programs/user/firefox.nix { inherit config pkgs; });
+        neovim =    (import ./programs/neovim.nix { inherit config pkgs; });
+        bash =      (import ./programs/bash.nix { inherit config pkgs; });
+        starship =  (import ./programs/starship.nix { inherit config pkgs; });
+        btop =      (import ./programs/btop.nix { inherit config pkgs; });
+        git =       (import ./programs/git.nix { inherit config pkgs; });
+        foot =      (import ./programs/foot.nix { inherit config pkgs; });
+        yazi =      (import ./programs/yazi.nix { inherit config pkgs; });
+        firefox =   (import ./programs/firefox.nix { inherit config pkgs; });
     };
 
     services = {

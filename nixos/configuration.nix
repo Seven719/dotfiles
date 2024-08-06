@@ -1,9 +1,9 @@
-{ config, pkgs, inputs, ... }:
+{ config, pkgs, inputs, meta, ... }:
 
 {
     imports =
     [
-        ./hardware-configuration.nix
+        ./hosts/amaterasu/hardware-configuration.nix
         inputs.home-manager.nixosModules.default
         ./services/root/pipewire.nix
         ./services/root/dbus.nix
@@ -21,7 +21,7 @@
     };
 
     networking = {
-        hostName = "amaterasu";
+        hostName = meta.hostname;
 
         networkmanager.enable = true;
     };
