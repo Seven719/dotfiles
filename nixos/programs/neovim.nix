@@ -13,7 +13,6 @@
         vscode-extensions.ms-python.python
         clang-tools
         nil
-        cargo
         rust-analyzer
         bash-language-server
         omnisharp-roslyn
