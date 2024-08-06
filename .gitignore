@@ -1,7 +1,4 @@
 *
-mpd/mpd.db
-mpd/mpdstate
-mpd/playlists
 nvim/lazy-lock.json
 
 # Except the following files and directories
@@ -9,7 +6,6 @@ nvim/lazy-lock.json
 !nixos/
 !sway/
 !i3status/
-!ncmpcpp/
 !tmux/
 !wallpapers/
 !screenshot1.png

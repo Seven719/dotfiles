@@ -16,6 +16,7 @@
         yazi =      (import ./programs/yazi.nix { inherit config pkgs; });
         firefox =   (import ./programs/firefox.nix { inherit config pkgs; });
         obs-studio =(import ./programs/obs-studio.nix { inherit config pkgs; });
+        ncmpcpp =   (import ./programs/ncmpcpp.nix { inherit config pkgs; });
     };
 
     services = {
@@ -37,7 +38,6 @@
         mpd
         fftw
         mpc-cli
-        ncmpcpp
         ripgrep
         btop
         fastfetch
