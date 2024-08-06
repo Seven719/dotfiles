@@ -15,6 +15,7 @@
         foot =      (import ./programs/foot.nix { inherit config pkgs; });
         yazi =      (import ./programs/yazi.nix { inherit config pkgs; });
         firefox =   (import ./programs/firefox.nix { inherit config pkgs; });
+        obs-studio =(import ./programs/obs-studio.nix { inherit config pkgs; });
     };
 
     services = {
