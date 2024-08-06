@@ -17,7 +17,8 @@
         firefox =   (import ./programs/firefox.nix { inherit config pkgs; });
         obs-studio =(import ./programs/obs-studio.nix { inherit config pkgs; });
         ncmpcpp =   (import ./programs/ncmpcpp.nix { inherit config pkgs; });
-        i3status =   (import ./programs/i3status.nix { inherit config pkgs; });
+        i3status =  (import ./programs/i3status.nix { inherit config pkgs; });
+        tmux =      (import ./programs/tmux.nix { inherit config pkgs; });
     };
 
     services = {
@@ -42,7 +43,6 @@
         ripgrep
         btop
         fastfetch
-        tmux
         yt-dlp
         vlc
         pavucontrol
