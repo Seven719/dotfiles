@@ -9,7 +9,6 @@ nvim/lazy-lock.json
 !nixos/
 !sway/
 !i3status/
-!mpd/
 !ncmpcpp/
 !tmux/
 !wallpapers/

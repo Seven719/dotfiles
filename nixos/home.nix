@@ -35,6 +35,7 @@
         yazi
         bat
         mpd
+        fftw
         mpc-cli
         ncmpcpp
         ripgrep
