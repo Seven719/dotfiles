@@ -17,6 +17,7 @@
         firefox =   (import ./programs/firefox.nix { inherit config pkgs; });
         obs-studio =(import ./programs/obs-studio.nix { inherit config pkgs; });
         ncmpcpp =   (import ./programs/ncmpcpp.nix { inherit config pkgs; });
+        i3status =   (import ./programs/i3status.nix { inherit config pkgs; });
     };
 
     services = {
@@ -46,7 +47,6 @@
         vlc
         pavucontrol
         obsidian
-        i3status
         wmenu
         dunst
         libnotify
