@@ -91,7 +91,7 @@
     xdg.portal = {
         enable = true;
         wlr.enable = true;
-        extraPortals = with pkgs; [
+        configPackages = with pkgs; [
             xdg-desktop-portal-gtk
             xdg-desktop-portal-wlr
         ];
@@ -105,12 +105,6 @@
 
     programs = {
         virt-manager.enable = true;
-
-        sway = {
-            enable = true;
-            xwayland.enable = true;
-            wrapperFeatures.gtk = true;
-        };
     };
 
     system.stateVersion = "24.05";

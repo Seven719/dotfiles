@@ -27,6 +27,10 @@
         mpd =       (import ./services/user/mpd.nix { inherit config pkgs; });
     };
 
+    wayland.windowManager = {
+        sway =      (import ./programs/sway.nix { inherit config pkgs; });
+    };
+
     fonts.fontconfig.enable = true;
     home.packages = with pkgs; [
         (nerdfonts.override {
