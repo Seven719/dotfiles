@@ -6,7 +6,7 @@
         command_timeout = 1000;
         add_newline = false;
 
-        format = "$directory\$git_branch\$git_state\$git_status\$line_break\$python\$character";
+        format = "$directory\$git_branch\$git_state\$git_status\$line_break\$character";
 
         directory = {
             style = "blue";
