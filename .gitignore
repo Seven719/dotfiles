@@ -1,10 +1,8 @@
 *
-nvim/lazy-lock.json
 
 # Except the following files and directories
 !nvim/
 !nixos/
-!wallpapers/
 !screenshot1.png
 !screenshot2.png
 !screenshot3.png
