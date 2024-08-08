@@ -16,6 +16,7 @@ in
     wrapperFeatures.gtk = true;
 
     config = {
+        defaultWorkspace = "workspace number 1";
         fonts = {
             names = [ "JetBrains Mono"];
             style = "Regular";
@@ -28,7 +29,7 @@ in
         }];
 
         assigns = {
-            "1" = [{ class = "firefox"; }];
+            "1" = [{ app_id = "firefox"; }];
             "4" = [{ class = "obsidian"; }];
         };
 
