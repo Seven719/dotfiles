@@ -2,7 +2,7 @@
 
 {
     enable = true;
-    musicDirectory = "/home/iulian/media/music";
+    musicDirectory = "/home/${config.user.name}/media/music";
     extraConfig = ''
         audio_output {
             type "pipewire"
@@ -10,14 +10,12 @@
         }
 
         audio_output {
-            type                    "fifo"
+                type                    "fifo"
                 name                    "my_fifo"
                 path                    "/tmp/mpd.fifo"
                 format                  "44100:16:2"
         }
     '';
-
-
 
     network.listenAddress = "any";
     network.startWhenNeeded = true;

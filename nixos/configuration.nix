@@ -11,6 +11,8 @@
         ./services/root/openssh.nix
         ./services/root/printing.nix
         ./services/root/bluetooth.nix
+
+        ./modules/user.nix
     ];
 
     boot.loader.grub = {
@@ -46,9 +48,9 @@
         };
     };
 
-    users.users.iulian = {
+    users.users.${config.user.name} = {
         isNormalUser = true;
-        description = "iulian";
+        description = "${config.user.name} user";
         extraGroups = [ "networkmanager" "libvirtd" "wheel" ];
     };
 
@@ -61,7 +63,7 @@
     home-manager = {
         extraSpecialArgs = { inherit inputs; };
         users = {
-            "iulian" = import ./home.nix;
+            "${config.user.name}" = import ./home.nix;
         };
     };
 

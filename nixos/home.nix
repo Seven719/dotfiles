@@ -1,8 +1,12 @@
 { config, pkgs, ... }:
 
 {
-    home.username = "iulian";
-    home.homeDirectory = "/home/iulian";
+    imports = [
+        ./modules/user.nix
+    ];
+
+    home.username = config.user.name;
+    home.homeDirectory = "/home/${config.user.name}";
 
     nixpkgs.config.allowUnfree = true;
 
