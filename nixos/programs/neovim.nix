@@ -10,7 +10,7 @@
     extraPackages = with pkgs; [
         lua-language-server
         vscode-langservers-extracted
-        vscode-extensions.ms-python.python
+        pyright
         clang-tools
         nil
         rust-analyzer
