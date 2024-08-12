@@ -88,6 +88,7 @@
         git
         unzip
         zip
+        wl-clipboard
     ];
 
     xdg.portal = {
@@ -103,7 +104,10 @@
         graphics.enable = true;
     };
 
-    virtualisation.libvirtd.enable = true;
+    virtualisation = {
+        libvirtd.enable = true;
+        waydroid.enable = true;
+    };
 
     programs = {
         virt-manager.enable = true;

@@ -58,13 +58,13 @@
         wmenu
         dunst
         libnotify
-        wl-clipboard
         autotiling
         swappy
         slurp
         grim
         gimp
         inkscape
+        waydroid
     ];
 
     gtk = {
