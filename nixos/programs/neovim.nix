@@ -13,6 +13,7 @@
         pyright
         clang-tools
         nil
+        gopls
         rust-analyzer
         bash-language-server
         omnisharp-roslyn
