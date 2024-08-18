@@ -28,7 +28,8 @@
     services = {
         syncthing = (import ./services/user/syncthing.nix { inherit config pkgs; });
         gammastep = (import ./services/user/gammastep.nix { inherit config pkgs; });
-        mpd =       (import ./services/user/mpd.nix { inherit config pkgs; });
+        mpd       = (import ./services/user/mpd.nix { inherit config pkgs; });
+        dunst     = (import ./services/user/dunst.nix { inherit config pkgs; });
     };
 
     wayland.windowManager = {
@@ -56,7 +57,6 @@
         pavucontrol
         obsidian
         wmenu
-        dunst
         libnotify
         autotiling
         swappy
