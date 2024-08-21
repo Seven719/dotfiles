@@ -46,6 +46,7 @@ in
             "XF86AudioPrev" = "exec --no-startup-id mpc prev";
             "XF86AudioNext" = "exec --no-startup-id mpc next";
             "XF86AudioMute" = "exec --no-startup-id mpc toggle";
+            "XF86AudioPlay" = "exec --no-startup-id mpc toggle";
             "XF86AudioStop" = "exec --no-startup-id mpc stop";
             "Print" = "exec --no-startup-id grim -g \"$(slurp)\" - | swappy -f -";
 
