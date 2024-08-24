@@ -9,6 +9,7 @@
         ns = "tmux new-session -s";
         ls = "ls --color=auto";
         la = "ls -a";
+        lg = "lazygit";
         grep = "grep --color=auto";
         music = "ncmpcpp";
         download-audio = "yt-dlp --extract-audio --add-metadata --no-playlist --embed-thumbnail";
