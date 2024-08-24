@@ -65,6 +65,7 @@
         gimp
         inkscape
         waydroid
+        lazygit
     ];
 
     gtk = {

@@ -89,6 +89,7 @@
         unzip
         zip
         wl-clipboard
+        gnumake
     ];
 
     xdg.portal = {
