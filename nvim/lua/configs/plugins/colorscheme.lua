@@ -9,14 +9,25 @@ return {
                     transparency = true,
                 },
             })
-            vim.cmd("colorscheme rose-pine-moon")
+            -- vim.cmd("colorscheme rose-pine-moon")
         end
     },
+
     {
-        "EdenEast/nightfox.nvim",
-        priority = 1000,
-        config = function()
-            -- vim.cmd("colorscheme nightfox")
+        "rebelot/kanagawa.nvim",
+        config = function ()
+            require("kanagawa").setup({
+            })
+            vim.cmd("colorscheme kanagawa-dragon")
+        end
+    },
+
+    {
+        "craftzdog/solarized-osaka.nvim",
+        config = function ()
+            require("solarized-osaka").setup({
+            })
+            -- vim.cmd("colorscheme solarized-osaka")
         end
     }
 }
