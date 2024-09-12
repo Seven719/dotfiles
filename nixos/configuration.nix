@@ -72,6 +72,8 @@
     environment.variables = {
         MOZ_ENABLE_WAYLAND = "1";
         LC_ALL = "en_GB.UTF-8";
+        "SSH_AUTH_SOCK" = "/run/user/1000/keyring/ssh";
+        "GPG_AGENT_INFO" = "/run/user/1000/keyring/gpg";
     };
 
     environment.systemPackages = with pkgs; [
@@ -90,6 +92,7 @@
         zip
         wl-clipboard
         gnumake
+        gnome-keyring
     ];
 
     xdg.portal = {
@@ -113,6 +116,15 @@
     programs = {
         virt-manager.enable = true;
     };
+
+    services.gnome.gnome-keyring.enable = true;
+
+    networking.firewall = {
+        enable = true;
+        allowedTCPPorts = [ 22 ];
+    };
+
+    programs.nix-ld.enable = true;
 
     system.stateVersion = "24.05";
 }
