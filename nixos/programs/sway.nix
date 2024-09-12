@@ -16,6 +16,23 @@ in
     wrapperFeatures.gtk = true;
 
     config = {
+        output = {
+            eDP-1 = {
+                mode = "1920x1080@60Hz";
+                pos = "0 0";
+            };
+            HDMI-A-2 = {
+                mode = "1920x1080@120Hz";
+                pos = "1920 0";
+            };
+        };
+        input = {
+            "type:mouse" = {
+                accel_profile = "flat";
+                pointer_accel = "0";
+            };
+        };
+
         defaultWorkspace = "workspace number 1";
         fonts = {
             names = [ "JetBrains Mono"];
