@@ -66,6 +66,7 @@
         inkscape
         waydroid
         lazygit
+        vscode
     ];
 
     gtk = {
