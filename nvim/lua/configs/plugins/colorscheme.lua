@@ -34,7 +34,8 @@ return {
   {
     "Mofiqul/vscode.nvim",
     config = function()
-      require("solarized-osaka").setup({
+      require("vscode").setup({
+        transparent = true,
       })
       vim.cmd("colorscheme vscode")
     end
