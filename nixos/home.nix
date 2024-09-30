@@ -67,6 +67,7 @@
         waydroid
         lazygit
         vscode
+        teams-for-linux
     ];
 
     gtk = {
