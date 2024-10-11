@@ -58,13 +58,13 @@ in
         floating.modifier = super;
 
         keybindings = {
-            "XF86AudioRaiseVolume" = "exec --no-startup-id mpc volume +5";
-            "XF86AudioLowerVolume" = "exec --no-startup-id mpc volume -5";
-            "XF86AudioPrev" = "exec --no-startup-id mpc prev";
-            "XF86AudioNext" = "exec --no-startup-id mpc next";
-            "XF86AudioMute" = "exec --no-startup-id mpc toggle";
-            "XF86AudioPlay" = "exec --no-startup-id mpc toggle";
-            "XF86AudioStop" = "exec --no-startup-id mpc stop";
+            "XF86AudioRaiseVolume" = "exec --no-startup-id playerctl volume 0.1+";
+            "XF86AudioLowerVolume" = "exec --no-startup-id playerctl volume 0.1-";
+            "XF86AudioPrev" = "exec --no-startup-id playerctl previous";
+            "XF86AudioNext" = "exec --no-startup-id playerctl next";
+            "XF86AudioMute" = "exec --no-startup-id playerctl volume 0";
+            "XF86AudioPlay" = "exec --no-startup-id playerctl play-pause";
+            "XF86AudioStop" = "exec --no-startup-id playerctl stop";
             "Print" = "exec --no-startup-id grim -g \"$(slurp)\" - | swappy -f -";
 
             "${super}+w" = "kill";

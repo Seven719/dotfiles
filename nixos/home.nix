@@ -20,7 +20,6 @@
         yazi =      (import ./programs/yazi.nix { inherit config pkgs; });
         firefox =   (import ./programs/firefox.nix { inherit config pkgs; });
         obs-studio =(import ./programs/obs-studio.nix { inherit config pkgs; });
-        ncmpcpp =   (import ./programs/ncmpcpp.nix { inherit config pkgs; });
         i3status =  (import ./programs/i3status.nix { inherit config pkgs; });
         tmux =      (import ./programs/tmux.nix { inherit config pkgs; });
     };
@@ -28,7 +27,6 @@
     services = {
         syncthing = (import ./services/user/syncthing.nix { inherit config pkgs; });
         gammastep = (import ./services/user/gammastep.nix { inherit config pkgs; });
-        mpd       = (import ./services/user/mpd.nix { inherit config pkgs; });
         dunst     = (import ./services/user/dunst.nix { inherit config pkgs; });
     };
 
@@ -46,9 +44,7 @@
         foot
         yazi
         bat
-        mpd
         fftw
-        mpc-cli
         ripgrep
         btop
         fastfetch
@@ -68,6 +64,8 @@
         lazygit
         vscode
         teams-for-linux
+        spotify
+        playerctl
     ];
 
     gtk = {
