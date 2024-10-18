@@ -9,7 +9,7 @@ return {
           transparency = true,
         },
       })
-      vim.cmd("colorscheme rose-pine-moon")
+      -- vim.cmd("colorscheme rose-pine-moon")
     end
   },
 
@@ -17,8 +17,9 @@ return {
     "rebelot/kanagawa.nvim",
     config = function()
       require("kanagawa").setup({
+        transparent = true,
       })
-      -- vim.cmd("colorscheme kanagawa-dragon")
+      vim.cmd("colorscheme kanagawa")
     end
   },
 
@@ -37,7 +38,7 @@ return {
       require("vscode").setup({
         transparent = true,
       })
-      vim.cmd("colorscheme vscode")
+      -- vim.cmd("colorscheme vscode")
     end
   }
 }
