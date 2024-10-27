@@ -93,6 +93,8 @@
         wl-clipboard
         gnumake
         gnome-keyring
+
+        inputs.zen-browser.packages."${system}".specific
     ];
 
     xdg.portal = {
