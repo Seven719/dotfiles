@@ -1,7 +1,15 @@
+# Ignore everything
 *
 
-# Except the following files and directories
+# Explicitly include specific directories
 !nvim/
-!nixos/
+!sway/
+!i3status/
+!foot/
+!starship.toml
+!tmux/
+!gtk-3.0/
+
+# Include screenshots
 !screenshot1.png
 !screenshot2.png
