@@ -6,9 +6,10 @@
 !sway/
 !i3status/
 !foot/
-!starship.toml
 !tmux/
 !gtk-3.0/
+!starship.toml
+!.bashrc
 
 # Include screenshots
 !screenshot1.png
