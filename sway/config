@@ -1,0 +1,105 @@
+# Super key
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+set $term foot
+set $menu wmenu-run
+
+# Output configurations
+output eDP-1 mode 1920x1080@60Hz pos 0 0
+
+# Default workspace
+workspace 1
+
+# Remove window border
+default_border none
+
+# Font settings
+font "JetBrains Mono Regular 10"
+
+# Window assignments
+for_window [app_id="firefox"] move to workspace 1
+for_window [class="obsidian"] move to workspace 4
+
+# Window settings
+titlebar_border_thickness 0
+titlebar_padding 0
+hide_edge_borders smart
+
+# Floating window settings
+floating_modifier $mod
+
+# Keybindings
+bindsym XF86AudioRaiseVolume exec --no-startup-id playerctl --player=spotify volume 0.1+
+bindsym XF86AudioLowerVolume exec --no-startup-id playerctl --player=spotify volume 0.1-
+bindsym XF86AudioPrev exec --no-startup-id playerctl --player=spotify previous
+bindsym XF86AudioNext exec --no-startup-id playerctl --player=spotify next
+bindsym XF86AudioMute exec --no-startup-id playerctl --player=spotify play-pause
+bindsym XF86AudioPlay exec --no-startup-id playerctl --player=spotify play-pause
+bindsym XF86AudioStop exec --no-startup-id playerctl --player=spotify stop
+bindsym Print exec --no-startup-id grim -g "$(slurp)" - | swappy -f -
+
+# Basic keybindings
+bindsym $mod+w kill
+bindsym $mod+space exec $menu
+bindsym $mod+Mod1+r reload
+bindsym $mod+Mod1+q exec swaymsg exit
+bindsym $mod+Return exec $term
+
+# Movement and focus keybindings
+bindsym $mod+Shift+$left move left
+bindsym $mod+Shift+$down move down
+bindsym $mod+Shift+$up move up
+bindsym $mod+Shift+$right move right
+bindsym $mod+$left focus left
+bindsym $mod+$down focus down
+bindsym $mod+$up focus up
+bindsym $mod+$right focus right
+
+# Workspace bindings
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# Move container to workspace
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# Fullscreen and floating mode
+bindsym $mod+f fullscreen
+bindsym $mod+s floating toggle
+
+# Resize mode
+mode "resize" {
+    bindsym $left resize shrink width 10 px
+    bindsym $down resize grow height 10 px
+    bindsym $up resize shrink height 10 px
+    bindsym $right resize grow width 10 px
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+# Bar configuration
+bar {
+  status_command i3status
+    tray_output none
+}
