@@ -1,12 +1,6 @@
 return {
-	"folke/tokyonight.nvim",
-	lazy = false,
-	priority = 1000,
+	"blazkowolf/gruber-darker.nvim",
 	config = function()
-		require("tokyonight").setup({
-			transparent = true,
-		})
-
-		vim.cmd([[colorscheme tokyonight-night]])
+		vim.cmd([[colorscheme gruber-darker]])
 	end,
 }
