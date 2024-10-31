@@ -8,7 +8,6 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   zsh-autosuggestions
-  zsh-syntax-highlighting
 )
 
 # load oh-my-zsh
