@@ -8,7 +8,6 @@
 !foot/
 !tmux/
 !gtk-3.0/
-!starship.toml
 !.zshrc
 
 # Include screenshots
