@@ -23,7 +23,7 @@ default_border none
 font "JetBrains Mono Regular 10"
 
 # Window assignments
-for_window [app_id="firefox"] move to workspace 1
+for_window [app_id="zen-alpha"] move to workspace 1
 for_window [class="obsidian"] move to workspace 4
 
 # Window settings
