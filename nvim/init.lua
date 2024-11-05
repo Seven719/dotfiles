@@ -22,8 +22,6 @@ require("lazy").setup({
 	change_detection = {
 		notify = false,
 	},
-	-- colorscheme that will be used when installing plugins.
-	install = { colorscheme = { "tokyonight-night" } },
 })
 
 -- Load basic settings
