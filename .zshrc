@@ -2,6 +2,7 @@
 export EDITOR="nvim"
 export GOPATH=$HOME/.go
 export ZSH="$HOME/.oh-my-zsh"
+export MANPAGER="nvim +Man!"
 
 ZSH_THEME="robbyrussell"
 
