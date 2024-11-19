@@ -11,6 +11,9 @@ set $GTK_THEME Tokyonight-Dark
 exec --no-startup-id GTK_THEME=$GTK_THEME
 exec gammastep
 
+# Mountain
+output * bg ../wallpapers/a_painting_of_a_man_with_a_face_on_his_head.png fill
+
 # Set screen refresh rate
 output HDMI-A-2 mode 1920x1080@120Hz
 
