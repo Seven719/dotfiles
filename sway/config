@@ -9,6 +9,7 @@ set $menu wmenu-run
 
 set $GTK_THEME Tokyonight-Dark
 exec --no-startup-id GTK_THEME=$GTK_THEME
+exec gammastep
 
 # Set screen refresh rate
 output HDMI-A-2 mode 1920x1080@120Hz
