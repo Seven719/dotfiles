@@ -7,7 +7,7 @@ set $right l
 set $term foot
 set $menu wmenu-run
 
-set $GTK_THEME Tokyonight-Dark
+set $GTK_THEME Adwaita-dark
 exec --no-startup-id GTK_THEME=$GTK_THEME
 exec gammastep
 
