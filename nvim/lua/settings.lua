@@ -2,11 +2,13 @@
 vim.opt.undofile = true
 -- Clipboard
 vim.opt.clipboard = "unnamedplus"
+-- Keep n amount of lines visible above and below the cursor when scrolling
+vim.opt.scrolloff = 10
+-- Recursively search directories and sub-directories
+vim.opt.path:append("**")
 
 -- Show sidebar numbers
-vim.o.number = true
--- Hide signs in sidebard
-vim.o.signcolumn = "no"
+vim.opt.number = true
 -- Sidebar number width is 4
 vim.opt.numberwidth = 4
 -- Highlight current line on cursor
@@ -30,5 +32,7 @@ vim.opt.ignorecase = true
 -- Override ignorecase if the search contains uppercase letters
 vim.opt.smartcase = true
 
--- Keep n amount of lines visible above and below the cursor when scrolling
-vim.opt.scrolloff = 10
+-- Don't close netrw after opening file
+vim.g.netrw_browse_split = 4
+-- Open file to the right of netrw instead of left
+vim.g.netrw_altv = 1

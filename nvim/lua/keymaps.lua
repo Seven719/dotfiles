@@ -1,8 +1,5 @@
 local map = vim.keymap.set
 
--- Enter Command Mode
-map("n", ";", ":")
-
 -- Display Lsp Diagnostics
 map("n", "<space>e", vim.diagnostic.open_float)
 
@@ -21,4 +18,3 @@ map("n", "<Esc>", "<cmd>nohlsearch<CR>")
 map("x", "<Tab>", [[>gv]])
 -- Outdent
 map("x", "<S-Tab>", [[<gv]])
-

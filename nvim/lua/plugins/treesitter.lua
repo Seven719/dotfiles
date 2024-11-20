@@ -21,10 +21,12 @@ return {
 				"python",
 				"go",
 			},
+
 			highlight = {
 				enable = true,
 				use_languagetree = true,
 			},
+
 			autotag = {
 				enable = true,
 				enable_rename = true,

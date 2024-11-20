@@ -4,19 +4,11 @@ return {
 	dependencies = {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
-		"L3MON4D3/LuaSnip",
-		"saadparwaiz1/cmp_luasnip",
 		"j-hui/fidget.nvim",
 	},
 
 	config = function()
-		local cmp_lsp = require("cmp_nvim_lsp")
-		local capabilities = vim.tbl_deep_extend(
-			"force",
-			{},
-			vim.lsp.protocol.make_client_capabilities(),
-			cmp_lsp.default_capabilities()
-		)
+		local capabilities = vim.tbl_deep_extend("force", {}, vim.lsp.protocol.make_client_capabilities())
 
 		require("fidget").setup({})
 		require("mason").setup()
@@ -33,6 +25,7 @@ return {
 				"ts_ls",
 				"gopls",
 			},
+
 			handlers = {
 				function(server_name)
 					require("lspconfig")[server_name].setup({
